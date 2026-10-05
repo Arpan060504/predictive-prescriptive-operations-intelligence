@@ -1,0 +1,7 @@
+market_id,market_name,region,primary_warehouse_id,demand_multiplier,seasonality_multiplier,annual_growth_rate
+MKT-01,Central Metro Market,Central Market,WH-01,1.25,1.1,0.045
+MKT-02,Northern Industrial Corridor,North Market,WH-02,1.05,0.95,0.03
+MKT-03,Western Commerce Zone,West Market,WH-01,0.95,1.05,0.055
+MKT-04,Eastern Urban Hub,East Market,WH-02,1.15,1.15,0.04
+MKT-05,Southern Regional Basin,South Market,WH-04,0.9,1.0,0.035
+MKT-06,Global Export Gateway,Export Hub,WH-03,1.2,1.2,0.06

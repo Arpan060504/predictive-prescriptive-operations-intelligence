@@ -1,0 +1,694 @@
+{
+  "execution_timestamp": "2026-10-02 00:53:17",
+  "random_seed": 42,
+  "timing_breakdown": {
+    "data_loading": 0.1335921287536621,
+    "sn_t+1": 0.21030926704406738,
+    "ma_t+1": 0.7973675727844238,
+    "ridge_t+1": 4.812016010284424,
+    "xgb_t+1": 6.145437479019165,
+    "sn_t+7": 0.1553206443786621,
+    "ma_t+7": 0.7277181148529053,
+    "ridge_t+7": 3.750202178955078,
+    "xgb_t+7": 2.27810001373291,
+    "sn_t+14": 0.19288063049316406,
+    "ma_t+14": 0.6130897998809814,
+    "ridge_t+14": 3.8676955699920654,
+    "xgb_t+14": 2.4257631301879883,
+    "sn_t+28": 0.15335965156555176,
+    "ma_t+28": 0.6548762321472168,
+    "ridge_t+28": 4.083024263381958,
+    "xgb_t+28": 2.4390957355499268,
+    "total_pipeline_sec": 36.32
+  },
+  "validation_results": [
+    {
+      "model": "Seasonal Naive",
+      "horizon": "t+1",
+      "training_time_sec": 0.21,
+      "mae": 13.7132,
+      "rmse": 57.7396,
+      "wape": 0.1296,
+      "smape": 13.0125,
+      "bias": 0.6228,
+      "n_samples": 21840
+    },
+    {
+      "model": "Moving Average (W=28)",
+      "horizon": "t+1",
+      "training_time_sec": 0.797,
+      "mae": 28.2555,
+      "rmse": 58.1049,
+      "wape": 0.2671,
+      "smape": 31.0732,
+      "bias": 0.8449,
+      "n_samples": 21840
+    },
+    {
+      "model": "Ridge (alpha=100.0)",
+      "horizon": "t+1",
+      "training_time_sec": 4.812,
+      "mae": 25.2959,
+      "rmse": 54.607,
+      "wape": 0.2391,
+      "smape": 31.2423,
+      "bias": -0.6853,
+      "n_samples": 21840
+    },
+    {
+      "model": "XGBoost (deep_expressive)",
+      "horizon": "t+1",
+      "training_time_sec": 6.145,
+      "mae": 10.8312,
+      "rmse": 41.4002,
+      "wape": 0.1024,
+      "smape": 12.0034,
+      "bias": -0.1859,
+      "n_samples": 21840
+    },
+    {
+      "model": "Seasonal Naive",
+      "horizon": "t+7",
+      "training_time_sec": 0.155,
+      "mae": 13.333,
+      "rmse": 57.4202,
+      "wape": 0.1259,
+      "smape": 12.7533,
+      "bias": -0.087,
+      "n_samples": 21840
+    },
+    {
+      "model": "Moving Average (W=28)",
+      "horizon": "t+7",
+      "training_time_sec": 0.728,
+      "mae": 28.1619,
+      "rmse": 58.0558,
+      "wape": 0.266,
+      "smape": 31.0575,
+      "bias": 0.7523,
+      "n_samples": 21840
+    },
+    {
+      "model": "Ridge (alpha=1000.0)",
+      "horizon": "t+7",
+      "training_time_sec": 3.75,
+      "mae": 12.7239,
+      "rmse": 45.8701,
+      "wape": 0.1202,
+      "smape": 18.8924,
+      "bias": 0.4352,
+      "n_samples": 21840
+    },
+    {
+      "model": "XGBoost (deep_expressive)",
+      "horizon": "t+7",
+      "training_time_sec": 2.278,
+      "mae": 10.5004,
+      "rmse": 41.5325,
+      "wape": 0.0992,
+      "smape": 10.7479,
+      "bias": -0.1185,
+      "n_samples": 21840
+    },
+    {
+      "model": "Seasonal Naive",
+      "horizon": "t+14",
+      "training_time_sec": 0.193,
+      "mae": 14.0495,
+      "rmse": 53.8854,
+      "wape": 0.1315,
+      "smape": 13.4188,
+      "bias": -1.0059,
+      "n_samples": 21840
+    },
+    {
+      "model": "Moving Average (W=28)",
+      "horizon": "t+14",
+      "training_time_sec": 0.613,
+      "mae": 28.5933,
+      "rmse": 54.5922,
+      "wape": 0.2677,
+      "smape": 31.4792,
+      "bias": -0.1666,
+      "n_samples": 21840
+    },
+    {
+      "model": "Ridge (alpha=1000.0)",
+      "horizon": "t+14",
+      "training_time_sec": 3.868,
+      "mae": 14.3299,
+      "rmse": 41.1549,
+      "wape": 0.1342,
+      "smape": 21.4095,
+      "bias": 1.3905,
+      "n_samples": 21840
+    },
+    {
+      "model": "XGBoost (deep_expressive)",
+      "horizon": "t+14",
+      "training_time_sec": 2.426,
+      "mae": 11.1636,
+      "rmse": 36.1844,
+      "wape": 0.1045,
+      "smape": 11.5742,
+      "bias": -0.6448,
+      "n_samples": 21840
+    },
+    {
+      "model": "Seasonal Naive",
+      "horizon": "t+28",
+      "training_time_sec": 0.153,
+      "mae": 14.602,
+      "rmse": 54.28,
+      "wape": 0.136,
+      "smape": 14.0377,
+      "bias": -1.6036,
+      "n_samples": 21840
+    },
+    {
+      "model": "Moving Average (W=28)",
+      "horizon": "t+28",
+      "training_time_sec": 0.655,
+      "mae": 28.7661,
+      "rmse": 54.6128,
+      "wape": 0.2678,
+      "smape": 31.7492,
+      "bias": -0.7643,
+      "n_samples": 21840
+    },
+    {
+      "model": "Ridge (alpha=1000.0)",
+      "horizon": "t+28",
+      "training_time_sec": 4.083,
+      "mae": 15.9835,
+      "rmse": 42.1745,
+      "wape": 0.1488,
+      "smape": 24.2405,
+      "bias": 3.2035,
+      "n_samples": 21840
+    },
+    {
+      "model": "XGBoost (deep_expressive)",
+      "horizon": "t+28",
+      "training_time_sec": 2.439,
+      "mae": 11.4066,
+      "rmse": 36.0793,
+      "wape": 0.1062,
+      "smape": 12.1174,
+      "bias": 0.5175,
+      "n_samples": 21840
+    }
+  ],
+  "selected_models": {
+    "t+1": {
+      "horizon": "t+1",
+      "selected_model": "XGBoost (deep_expressive)",
+      "primary_metric": "wape",
+      "primary_value": 0.1024,
+      "validation_metrics": {
+        "mae": 10.8312,
+        "rmse": 41.4002,
+        "wape": 0.1024,
+        "smape": 12.0034,
+        "bias": -0.1859
+      },
+      "selection_rationale": "Selected XGBoost (deep_expressive) for t+1 with lowest validation WAPE (0.1024) vs competitors."
+    },
+    "t+14": {
+      "horizon": "t+14",
+      "selected_model": "XGBoost (deep_expressive)",
+      "primary_metric": "wape",
+      "primary_value": 0.1045,
+      "validation_metrics": {
+        "mae": 11.1636,
+        "rmse": 36.1844,
+        "wape": 0.1045,
+        "smape": 11.5742,
+        "bias": -0.6448
+      },
+      "selection_rationale": "Selected XGBoost (deep_expressive) for t+14 with lowest validation WAPE (0.1045) vs competitors."
+    },
+    "t+28": {
+      "horizon": "t+28",
+      "selected_model": "XGBoost (deep_expressive)",
+      "primary_metric": "wape",
+      "primary_value": 0.1062,
+      "validation_metrics": {
+        "mae": 11.4066,
+        "rmse": 36.0793,
+        "wape": 0.1062,
+        "smape": 12.1174,
+        "bias": 0.5175
+      },
+      "selection_rationale": "Selected XGBoost (deep_expressive) for t+28 with lowest validation WAPE (0.1062) vs competitors."
+    },
+    "t+7": {
+      "horizon": "t+7",
+      "selected_model": "XGBoost (deep_expressive)",
+      "primary_metric": "wape",
+      "primary_value": 0.0992,
+      "validation_metrics": {
+        "mae": 10.5004,
+        "rmse": 41.5325,
+        "wape": 0.0992,
+        "smape": 10.7479,
+        "bias": -0.1185
+      },
+      "selection_rationale": "Selected XGBoost (deep_expressive) for t+7 with lowest validation WAPE (0.0992) vs competitors."
+    }
+  },
+  "test_results": [
+    {
+      "horizon": "t+1",
+      "selected_model": "XGBoost (deep_expressive)",
+      "prediction_time_sec": 0.064,
+      "mae": 13.9267,
+      "rmse": 33.7702,
+      "wape": 0.1125,
+      "smape": 13.2563,
+      "bias": -0.4783,
+      "n_samples": 43920,
+      "nominal_coverage": 0.8,
+      "empirical_coverage": 0.7525,
+      "average_interval_width": 32.2112
+    },
+    {
+      "horizon": "t+7",
+      "selected_model": "XGBoost (deep_expressive)",
+      "prediction_time_sec": 0.057,
+      "mae": 14.1479,
+      "rmse": 33.9582,
+      "wape": 0.1136,
+      "smape": 12.4872,
+      "bias": -0.6755,
+      "n_samples": 42480,
+      "nominal_coverage": 0.8,
+      "empirical_coverage": 0.7323,
+      "average_interval_width": 30.8375
+    },
+    {
+      "horizon": "t+14",
+      "selected_model": "XGBoost (deep_expressive)",
+      "prediction_time_sec": 0.051,
+      "mae": 14.4747,
+      "rmse": 34.9264,
+      "wape": 0.116,
+      "smape": 12.7434,
+      "bias": -1.2934,
+      "n_samples": 40800,
+      "nominal_coverage": 0.8,
+      "empirical_coverage": 0.7398,
+      "average_interval_width": 33.0144
+    },
+    {
+      "horizon": "t+28",
+      "selected_model": "XGBoost (deep_expressive)",
+      "prediction_time_sec": 0.05,
+      "mae": 14.7003,
+      "rmse": 35.7162,
+      "wape": 0.1165,
+      "smape": 13.1014,
+      "bias": -1.4364,
+      "n_samples": 37440,
+      "nominal_coverage": 0.8,
+      "empirical_coverage": 0.7428,
+      "average_interval_width": 33.265
+    }
+  ],
+  "interval_results": {
+    "t+1": {
+      "nominal_coverage": 0.8,
+      "empirical_coverage": 0.7525,
+      "average_interval_width": 32.2112,
+      "q_lower": -16.9888,
+      "q_upper": 16.0412,
+      "n_samples": 43920
+    },
+    "t+7": {
+      "nominal_coverage": 0.8,
+      "empirical_coverage": 0.7323,
+      "average_interval_width": 30.8375,
+      "q_lower": -16.4606,
+      "q_upper": 15.2064,
+      "n_samples": 42480
+    },
+    "t+14": {
+      "nominal_coverage": 0.8,
+      "empirical_coverage": 0.7398,
+      "average_interval_width": 33.0144,
+      "q_lower": -16.6724,
+      "q_upper": 17.2282,
+      "n_samples": 40800
+    },
+    "t+28": {
+      "nominal_coverage": 0.8,
+      "empirical_coverage": 0.7428,
+      "average_interval_width": 33.265,
+      "q_lower": -18.5258,
+      "q_upper": 15.9047,
+      "n_samples": 37440
+    }
+  },
+  "residual_analysis": {
+    "by_horizon": {
+      "t+1": {
+        "mean_residual": 0.4783,
+        "std_residual": 33.7672,
+        "p10_residual": -20.03,
+        "p50_residual": -0.69,
+        "p90_residual": 20.251
+      },
+      "t+7": {
+        "mean_residual": 0.6755,
+        "std_residual": 33.9519,
+        "p10_residual": -21.12,
+        "p50_residual": -0.64,
+        "p90_residual": 21.132
+      },
+      "t+14": {
+        "mean_residual": 1.2934,
+        "std_residual": 34.9028,
+        "p10_residual": -21.09,
+        "p50_residual": -0.52,
+        "p90_residual": 22.48
+      },
+      "t+28": {
+        "mean_residual": 1.4364,
+        "std_residual": 35.6878,
+        "p10_residual": -21.001,
+        "p50_residual": -0.56,
+        "p90_residual": 23.2
+      }
+    },
+    "by_warehouse_t1": {
+      "WH-01": {
+        "wape": 0.1054,
+        "mae": 17.8802,
+        "bias": -1.4985
+      },
+      "WH-02": {
+        "wape": 0.0992,
+        "mae": 16.3484,
+        "bias": -0.3725
+      },
+      "WH-03": {
+        "wape": 0.1316,
+        "mae": 12.3644,
+        "bias": -0.3393
+      },
+      "WH-04": {
+        "wape": 0.1364,
+        "mae": 9.1138,
+        "bias": 0.2973
+      }
+    },
+    "by_category_t1": {
+      "Consumables": {
+        "wape": 0.1207,
+        "mae": 21.9263,
+        "bias": -0.4443
+      },
+      "Electronics": {
+        "wape": 0.1308,
+        "mae": 8.425,
+        "bias": -0.456
+      },
+      "Industrial Supplies": {
+        "wape": 0.1118,
+        "mae": 5.8162,
+        "bias": 0.5774
+      },
+      "Packaging": {
+        "wape": 0.1076,
+        "mae": 28.7798,
+        "bias": -2.952
+      },
+      "Raw Materials": {
+        "wape": 0.1015,
+        "mae": 16.2403,
+        "bias": 0.0335
+      },
+      "Spare Parts": {
+        "wape": 0.1357,
+        "mae": 2.3727,
+        "bias": 0.3719
+      }
+    }
+  },
+  "feature_importances": {
+    "t+1": [
+      {
+        "feature": "rolling_mean_7",
+        "importance": 0.35886937379837036
+      },
+      {
+        "feature": "rolling_mean_14",
+        "importance": 0.35288187861442566
+      },
+      {
+        "feature": "demand_requested",
+        "importance": 0.06170511618256569
+      },
+      {
+        "feature": "rolling_mean_28",
+        "importance": 0.03006412461400032
+      },
+      {
+        "feature": "category_Raw Materials",
+        "importance": 0.024787966161966324
+      },
+      {
+        "feature": "day_of_week",
+        "importance": 0.02116481587290764
+      },
+      {
+        "feature": "demand_change_1d",
+        "importance": 0.01858532428741455
+      },
+      {
+        "feature": "demand_change_7d",
+        "importance": 0.01567649096250534
+      },
+      {
+        "feature": "rolling_std_7",
+        "importance": 0.013397246599197388
+      },
+      {
+        "feature": "event_demand_multiplier",
+        "importance": 0.010561191476881504
+      },
+      {
+        "feature": "rolling_min_28",
+        "importance": 0.01045919768512249
+      },
+      {
+        "feature": "demand_lag_1",
+        "importance": 0.008820290677249432
+      },
+      {
+        "feature": "days_until_event_end",
+        "importance": 0.007482693996280432
+      },
+      {
+        "feature": "category_Packaging",
+        "importance": 0.006191882770508528
+      },
+      {
+        "feature": "demand_cv_28",
+        "importance": 0.0052046217024326324
+      }
+    ],
+    "t+7": [
+      {
+        "feature": "demand_requested",
+        "importance": 0.5576953887939453
+      },
+      {
+        "feature": "demand_lag_7",
+        "importance": 0.23217563331127167
+      },
+      {
+        "feature": "demand_lag_14",
+        "importance": 0.021967599168419838
+      },
+      {
+        "feature": "days_until_event_end",
+        "importance": 0.016376277431845665
+      },
+      {
+        "feature": "rolling_mean_14",
+        "importance": 0.016361936926841736
+      },
+      {
+        "feature": "rolling_mean_7",
+        "importance": 0.016159428283572197
+      },
+      {
+        "feature": "demand_lag_1",
+        "importance": 0.014374574646353722
+      },
+      {
+        "feature": "days_since_event_start",
+        "importance": 0.010223115794360638
+      },
+      {
+        "feature": "week_of_year",
+        "importance": 0.008690768852829933
+      },
+      {
+        "feature": "rolling_std_7",
+        "importance": 0.008193197660148144
+      },
+      {
+        "feature": "month",
+        "importance": 0.008070992305874825
+      },
+      {
+        "feature": "demand_lag_28",
+        "importance": 0.007197363767772913
+      },
+      {
+        "feature": "warehouse_id_WH-02",
+        "importance": 0.0061944699846208096
+      },
+      {
+        "feature": "rolling_mean_28",
+        "importance": 0.0055736154317855835
+      },
+      {
+        "feature": "demand_growth_28d",
+        "importance": 0.005417459178715944
+      }
+    ],
+    "t+14": [
+      {
+        "feature": "demand_requested",
+        "importance": 0.5231151580810547
+      },
+      {
+        "feature": "demand_lag_7",
+        "importance": 0.20934578776359558
+      },
+      {
+        "feature": "demand_lag_14",
+        "importance": 0.02900349348783493
+      },
+      {
+        "feature": "days_since_event_start",
+        "importance": 0.022918114438652992
+      },
+      {
+        "feature": "rolling_mean_14",
+        "importance": 0.018971506506204605
+      },
+      {
+        "feature": "rolling_mean_7",
+        "importance": 0.018188826739788055
+      },
+      {
+        "feature": "demand_lag_28",
+        "importance": 0.017474636435508728
+      },
+      {
+        "feature": "week_of_year",
+        "importance": 0.014916098676621914
+      },
+      {
+        "feature": "promotion_flag",
+        "importance": 0.011375038884580135
+      },
+      {
+        "feature": "month_end",
+        "importance": 0.011161448433995247
+      },
+      {
+        "feature": "days_until_event_end",
+        "importance": 0.010818172246217728
+      },
+      {
+        "feature": "rolling_max_28",
+        "importance": 0.009336275979876518
+      },
+      {
+        "feature": "event_active",
+        "importance": 0.008519812487065792
+      },
+      {
+        "feature": "month",
+        "importance": 0.008406901732087135
+      },
+      {
+        "feature": "demand_cv_28",
+        "importance": 0.00782759953290224
+      }
+    ],
+    "t+28": [
+      {
+        "feature": "demand_requested",
+        "importance": 0.4123251736164093
+      },
+      {
+        "feature": "demand_lag_7",
+        "importance": 0.24249130487442017
+      },
+      {
+        "feature": "demand_lag_14",
+        "importance": 0.04674478620290756
+      },
+      {
+        "feature": "rolling_mean_14",
+        "importance": 0.041077323257923126
+      },
+      {
+        "feature": "month",
+        "importance": 0.03321387991309166
+      },
+      {
+        "feature": "rolling_mean_7",
+        "importance": 0.027967404574155807
+      },
+      {
+        "feature": "demand_lag_28",
+        "importance": 0.025590378791093826
+      },
+      {
+        "feature": "category_Raw Materials",
+        "importance": 0.019286412745714188
+      },
+      {
+        "feature": "week_of_year",
+        "importance": 0.017036698758602142
+      },
+      {
+        "feature": "rolling_min_28",
+        "importance": 0.01370968110859394
+      },
+      {
+        "feature": "event_lead_time_multiplier",
+        "importance": 0.011469613760709763
+      },
+      {
+        "feature": "rolling_mean_28",
+        "importance": 0.009634021669626236
+      },
+      {
+        "feature": "demand_cv_28",
+        "importance": 0.008464546874165535
+      },
+      {
+        "feature": "promotion_flag",
+        "importance": 0.008143298327922821
+      },
+      {
+        "feature": "days_until_event_end",
+        "importance": 0.007310343440622091
+      }
+    ]
+  },
+  "perturbation_test": {
+    "is_invariant": true,
+    "cutoff_date": "2025-06-30",
+    "max_abs_diff": 0.0,
+    "perturbation_shock": 10000.0
+  }
+}

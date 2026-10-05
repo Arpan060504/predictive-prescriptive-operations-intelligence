@@ -1,0 +1,51 @@
+{
+  "generation_timestamp": "2026-09-30T22:40:04.846908",
+  "random_seed": 42,
+  "scale": 1.0,
+  "generation_runtime_seconds": 32.53,
+  "date_range": {
+    "start": "2024-01-01",
+    "end": "2025-12-31",
+    "total_days": 731
+  },
+  "entity_counts": {
+    "products": 60,
+    "categories": 6,
+    "suppliers": 8,
+    "warehouses": 4,
+    "markets": 6,
+    "macro_events": 6
+  },
+  "row_counts": {
+    "products.csv": 60,
+    "suppliers.csv": 8,
+    "warehouses.csv": 4,
+    "markets.csv": 6,
+    "date.csv": 731,
+    "event_log.csv": 6,
+    "demand.csv": 263160,
+    "inventory.csv": 175440,
+    "purchase_orders.csv": 11730,
+    "transport.csv": 11730
+  },
+  "total_operational_records": 462060,
+  "operational_metrics": {
+    "total_demand_requested_units": 19237514,
+    "total_demand_fulfilled_units": 18414486,
+    "total_lost_sales_units": 767368,
+    "stockout_frequency_pct": 8.32,
+    "overall_service_level_pct": 95.72,
+    "average_daily_inventory_units_per_sku_wh": 852.6,
+    "average_supplier_delay_days": 1.09,
+    "supplier_on_time_rate_pct": 50.33,
+    "supplier_otif_rate_pct": 48.08,
+    "costs": {
+      "procurement_cost": 580251691.44,
+      "holding_cost": 2749719.93,
+      "stockout_penalty_cost": 38193227.82,
+      "transport_cost": 50154683.13,
+      "total_operational_cost": 671349322.32
+    }
+  },
+  "reconciliation_passed": true
+}

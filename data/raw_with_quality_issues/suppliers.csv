@@ -1,0 +1,9 @@
+supplier_id,supplier_name,primary_categories,baseline_reliability,baseline_lead_time_days,lead_time_variance,monthly_capacity_units,moq_units,transport_cost_factor,tier
+SUP-01,Apex Precision Components,"Electronics, Spare Parts",0.95,5,0.9,35000,100,1.15,Tier-1 Strategic
+SUP-02,Global Sourcing Logistics,"Raw Materials, Packaging",0.83,14,3.2,75000,350,0.85,Tier-2 Economy Bulk
+SUP-03,Vanguard Industrial Ltd,"Industrial Supplies, Spare Parts",0.91,8,1.6,40000,150,1.05,Tier-1 Industrial
+SUP-04,Pacific Bulk Materials,Raw Materials,0.77,18,4.1,90000,500,0.78,Tier-3 Overseas Commodity
+SUP-05,NexGen Micro Devices,Electronics,0.97,6,0.7,25000,60,1.3,Tier-1 High Precision
+SUP-06,EcoPack Solutions,"Packaging, Consumables",0.9,4,1.1,60000,250,0.95,Tier-2 Domestic
+SUP-07,Reliant Consumables Corp,Consumables,0.87,5,1.5,50000,200,1.0,Tier-2 Standard
+SUP-08,Titan Heavy Spares,"Industrial Supplies, Spare Parts",0.88,13,2.4,28000,80,1.1,Tier-2 Specialized Heavy

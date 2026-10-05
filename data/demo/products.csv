@@ -1,0 +1,61 @@
+product_id,product_name,category,unit_cost,selling_price,criticality,base_demand,shelf_life_days,storage_requirement,supplier_dependency,primary_supplier_id,secondary_supplier_id,moq_units,lead_time_expectation_days
+SKU-001,ELEC-Ele-GradeA-105,Electronics,149.48,221.48,Medium,22,730,High-Security,Single,SUP-05,SUP-03,50,16
+SKU-002,ELEC-Ele-GradeB-110,Electronics,147.75,234.3,Medium,24,730,High-Security,Dual,SUP-01,SUP-03,20,16
+SKU-003,ELEC-Ele-GradeC-115,Electronics,131.92,210.65,Medium,25,730,High-Security,Dual,SUP-01,SUP-03,100,4
+SKU-004,ELEC-Ele-GradeD-120,Electronics,156.73,241.29,Medium,15,730,High-Security,Multi,SUP-05,SUP-03,30,16
+SKU-005,ELEC-Ele-GradeE-125,Electronics,150.08,211.37,Low,20,730,High-Security,Single,SUP-01,SUP-03,75,12
+SKU-006,ELEC-Ele-GradeF-130,Electronics,145.54,238.72,Medium,21,730,High-Security,Dual,SUP-01,SUP-03,75,4
+SKU-007,ELEC-Ele-GradeG-135,Electronics,62.54,93.35,Medium,19,730,High-Security,Dual,SUP-01,SUP-03,10,16
+SKU-008,ELEC-Ele-GradeH-140,Electronics,139.54,201.46,High,30,730,High-Security,Dual,SUP-05,SUP-03,100,6
+SKU-009,ELEC-Ele-GradeI-145,Electronics,137.14,190.89,Low,31,730,High-Security,Dual,SUP-01,SUP-03,75,12
+SKU-010,ELEC-Ele-GradeJ-150,Electronics,140.2,222.11,Medium,25,730,High-Security,Single,SUP-01,SUP-03,20,4
+SKU-011,INDU-Ind-GradeA-105,Industrial Supplies,71.79,100.09,Medium,41,1825,Ambient,Dual,SUP-08,SUP-01,50,8
+SKU-012,INDU-Ind-GradeB-110,Industrial Supplies,64.14,87.28,Medium,33,1825,Ambient,Single,SUP-03,SUP-01,20,8
+SKU-013,INDU-Ind-GradeC-115,Industrial Supplies,84.74,114.13,Low,40,1825,Ambient,Dual,SUP-03,SUP-01,30,12
+SKU-014,INDU-Ind-GradeD-120,Industrial Supplies,63.99,93.22,Medium,45,1825,Ambient,Multi,SUP-08,SUP-01,20,4
+SKU-015,INDU-Ind-GradeE-125,Industrial Supplies,26.59,35.05,Medium,38,1825,Ambient,Single,SUP-08,SUP-01,100,8
+SKU-016,INDU-Ind-GradeF-130,Industrial Supplies,35.66,51.32,Medium,30,1825,Ambient,Dual,SUP-03,SUP-01,75,12
+SKU-017,INDU-Ind-GradeG-135,Industrial Supplies,50.33,66.31,High,25,1825,Ambient,Multi,SUP-03,SUP-01,30,12
+SKU-018,INDU-Ind-GradeH-140,Industrial Supplies,43.61,65.15,Medium,23,1825,Ambient,Dual,SUP-08,SUP-01,75,6
+SKU-019,INDU-Ind-GradeI-145,Industrial Supplies,31.75,47.01,Low,18,1825,Ambient,Dual,SUP-03,SUP-01,75,8
+SKU-020,INDU-Ind-GradeJ-150,Industrial Supplies,37.37,54.98,Medium,15,1825,Ambient,Dual,SUP-08,SUP-01,20,12
+SKU-021,PACK-Pac-GradeA-105,Packaging,5.3,8.45,Low,117,1095,Bulky,Single,SUP-02,SUP-07,100,8
+SKU-022,PACK-Pac-GradeB-110,Packaging,3.64,5.25,Low,121,1095,Bulky,Single,SUP-02,SUP-07,100,16
+SKU-023,PACK-Pac-GradeC-115,Packaging,5.28,7.94,Low,115,1095,Bulky,Multi,SUP-06,SUP-07,150,8
+SKU-024,PACK-Pac-GradeD-120,Packaging,6.59,9.39,Low,85,1095,Bulky,Multi,SUP-02,SUP-07,50,8
+SKU-025,PACK-Pac-GradeE-125,Packaging,4.58,6.78,Low,146,1095,Bulky,Dual,SUP-02,SUP-07,100,4
+SKU-026,PACK-Pac-GradeF-130,Packaging,6.87,11.46,Low,109,1095,Bulky,Single,SUP-02,SUP-07,200,12
+SKU-027,PACK-Pac-GradeG-135,Packaging,3.33,5.32,Medium,126,1095,Bulky,Single,SUP-06,SUP-07,200,16
+SKU-028,PACK-Pac-GradeH-140,Packaging,3.0,4.23,Low,72,1095,Bulky,Multi,SUP-06,SUP-07,150,16
+SKU-029,PACK-Pac-GradeI-145,Packaging,3.56,6.0,Low,117,1095,Bulky,Dual,SUP-02,SUP-07,500,16
+SKU-030,PACK-Pac-GradeJ-150,Packaging,2.57,3.63,High,87,1095,Bulky,Multi,SUP-02,SUP-07,50,12
+SKU-031,CONS-Con-GradeA-105,Consumables,20.03,35.31,Low,48,365,Temperature-Controlled,Dual,SUP-07,SUP-02,30,12
+SKU-032,CONS-Con-GradeB-110,Consumables,10.73,15.91,Low,92,365,Temperature-Controlled,Multi,SUP-07,SUP-02,100,6
+SKU-033,CONS-Con-GradeC-115,Consumables,6.21,10.81,Low,103,365,Temperature-Controlled,Dual,SUP-06,SUP-02,75,16
+SKU-034,CONS-Con-GradeD-120,Consumables,7.54,11.75,High,110,365,Temperature-Controlled,Dual,SUP-07,SUP-02,30,4
+SKU-035,CONS-Con-GradeE-125,Consumables,4.25,6.5,Medium,59,365,Temperature-Controlled,Single,SUP-06,SUP-02,20,8
+SKU-036,CONS-Con-GradeF-130,Consumables,16.5,27.28,High,69,365,Temperature-Controlled,Dual,SUP-06,SUP-02,10,12
+SKU-037,CONS-Con-GradeG-135,Consumables,6.36,9.5,Low,80,365,Temperature-Controlled,Dual,SUP-07,SUP-02,10,8
+SKU-038,CONS-Con-GradeH-140,Consumables,15.93,28.43,High,76,365,Temperature-Controlled,Single,SUP-06,SUP-02,50,8
+SKU-039,CONS-Con-GradeI-145,Consumables,15.41,22.92,Medium,91,365,Temperature-Controlled,Multi,SUP-06,SUP-02,10,8
+SKU-040,CONS-Con-GradeJ-150,Consumables,20.79,36.0,Medium,70,365,Temperature-Controlled,Single,SUP-06,SUP-02,50,4
+SKU-041,SPAR-Spa-GradeA-105,Spare Parts,275.65,523.3,High,11,3650,Ambient,Dual,SUP-01,SUP-03,100,16
+SKU-042,SPAR-Spa-GradeB-110,Spare Parts,216.81,369.94,High,6,3650,Ambient,Dual,SUP-01,SUP-03,100,16
+SKU-043,SPAR-Spa-GradeC-115,Spare Parts,178.01,289.07,High,8,3650,Ambient,Multi,SUP-01,SUP-03,100,4
+SKU-044,SPAR-Spa-GradeD-120,Spare Parts,77.31,138.94,High,10,3650,Ambient,Dual,SUP-01,SUP-03,100,4
+SKU-045,SPAR-Spa-GradeE-125,Spare Parts,299.45,473.96,Medium,7,3650,Ambient,Single,SUP-01,SUP-03,50,4
+SKU-046,SPAR-Spa-GradeF-130,Spare Parts,74.4,118.1,High,16,3650,Ambient,Dual,SUP-01,SUP-03,75,6
+SKU-047,SPAR-Spa-GradeG-135,Spare Parts,142.68,250.01,High,15,3650,Ambient,Single,SUP-08,SUP-03,30,4
+SKU-048,SPAR-Spa-GradeH-140,Spare Parts,121.55,197.48,High,13,3650,Ambient,Single,SUP-08,SUP-03,10,6
+SKU-049,SPAR-Spa-GradeI-145,Spare Parts,196.18,304.24,Low,6,3650,Ambient,Multi,SUP-08,SUP-03,75,4
+SKU-050,SPAR-Spa-GradeJ-150,Spare Parts,279.33,545.06,High,8,3650,Ambient,Dual,SUP-08,SUP-03,50,12
+SKU-051,RAW -Raw-GradeA-105,Raw Materials,40.04,49.13,Medium,116,730,Bulky,Multi,SUP-04,SUP-03,500,8
+SKU-052,RAW -Raw-GradeB-110,Raw Materials,25.86,34.34,Low,70,730,Bulky,Dual,SUP-02,SUP-03,50,8
+SKU-053,RAW -Raw-GradeC-115,Raw Materials,20.37,25.94,Medium,90,730,Bulky,Dual,SUP-02,SUP-03,100,12
+SKU-054,RAW -Raw-GradeD-120,Raw Materials,22.69,31.53,Medium,104,730,Bulky,Dual,SUP-04,SUP-03,150,8
+SKU-055,RAW -Raw-GradeE-125,Raw Materials,42.55,56.61,Medium,66,730,Bulky,Dual,SUP-04,SUP-03,50,6
+SKU-056,RAW -Raw-GradeF-130,Raw Materials,38.46,47.71,High,98,730,Bulky,Single,SUP-04,SUP-03,500,12
+SKU-057,RAW -Raw-GradeG-135,Raw Materials,15.42,20.74,High,97,730,Bulky,Single,SUP-02,SUP-03,500,16
+SKU-058,RAW -Raw-GradeH-140,Raw Materials,40.83,53.84,High,86,730,Bulky,Multi,SUP-04,SUP-03,50,6
+SKU-059,RAW -Raw-GradeI-145,Raw Materials,33.24,40.52,Low,92,730,Bulky,Dual,SUP-04,SUP-03,50,8
+SKU-060,RAW -Raw-GradeJ-150,Raw Materials,28.78,37.54,High,108,730,Bulky,Dual,SUP-04,SUP-03,100,8

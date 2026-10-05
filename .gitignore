@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caching and environments
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+env/
+venv/
+ENV/
+
+# Streamlit local state
+.streamlit/secrets.toml
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Large local caches (keep demo precomputed artifacts intact)
+data/raw/*.tmp
+
+database/*.db
+database/*.db-shm
+database/*.db-wal

@@ -1,0 +1,412 @@
+{
+  "audit_timestamp": "2026-09-30T23:14:32.023037",
+  "random_seed": 42,
+  "overall_status": "PASSED (Zero Critical Errors)",
+  "executive_summary": {
+    "pre_cleaning_critical_errors": 481,
+    "pre_cleaning_warnings": 697,
+    "post_cleaning_critical_errors": 0,
+    "post_cleaning_warnings": 701,
+    "records_removed": 479,
+    "records_repaired": 84,
+    "records_retained": 462563
+  },
+  "pre_cleaning_tables": {
+    "products.csv": {
+      "rows": 60,
+      "columns": 14,
+      "missing_cells": 0,
+      "missing_pct": 0.0,
+      "duplicate_rows": 0,
+      "duplicate_pct": 0.0
+    },
+    "suppliers.csv": {
+      "rows": 8,
+      "columns": 10,
+      "missing_cells": 0,
+      "missing_pct": 0.0,
+      "duplicate_rows": 0,
+      "duplicate_pct": 0.0
+    },
+    "warehouses.csv": {
+      "rows": 4,
+      "columns": 6,
+      "missing_cells": 0,
+      "missing_pct": 0.0,
+      "duplicate_rows": 0,
+      "duplicate_pct": 0.0
+    },
+    "markets.csv": {
+      "rows": 6,
+      "columns": 7,
+      "missing_cells": 0,
+      "missing_pct": 0.0,
+      "duplicate_rows": 0,
+      "duplicate_pct": 0.0
+    },
+    "date.csv": {
+      "rows": 731,
+      "columns": 13,
+      "missing_cells": 0,
+      "missing_pct": 0.0,
+      "duplicate_rows": 0,
+      "duplicate_pct": 0.0
+    },
+    "event_log.csv": {
+      "rows": 6,
+      "columns": 13,
+      "missing_cells": 0,
+      "missing_pct": 0.0,
+      "duplicate_rows": 0,
+      "duplicate_pct": 0.0
+    },
+    "demand.csv": {
+      "rows": 263252,
+      "columns": 7,
+      "missing_cells": 242563,
+      "missing_pct": 13.163,
+      "duplicate_rows": 120,
+      "duplicate_pct": 0.046
+    },
+    "inventory.csv": {
+      "rows": 175440,
+      "columns": 21,
+      "missing_cells": 0,
+      "missing_pct": 0.0,
+      "duplicate_rows": 0,
+      "duplicate_pct": 0.0
+    },
+    "purchase_orders.csv": {
+      "rows": 11805,
+      "columns": 19,
+      "missing_cells": 36,
+      "missing_pct": 0.016,
+      "duplicate_rows": 50,
+      "duplicate_pct": 0.424
+    },
+    "transport.csv": {
+      "rows": 11730,
+      "columns": 10,
+      "missing_cells": 0,
+      "missing_pct": 0.0,
+      "duplicate_rows": 0,
+      "duplicate_pct": 0.0
+    }
+  },
+  "post_cleaning_tables": {
+    "products.csv": {
+      "rows": 60,
+      "columns": 14,
+      "missing_cells": 0,
+      "missing_pct": 0.0,
+      "duplicate_rows": 0,
+      "duplicate_pct": 0.0
+    },
+    "suppliers.csv": {
+      "rows": 8,
+      "columns": 10,
+      "missing_cells": 0,
+      "missing_pct": 0.0,
+      "duplicate_rows": 0,
+      "duplicate_pct": 0.0
+    },
+    "warehouses.csv": {
+      "rows": 4,
+      "columns": 6,
+      "missing_cells": 0,
+      "missing_pct": 0.0,
+      "duplicate_rows": 0,
+      "duplicate_pct": 0.0
+    },
+    "markets.csv": {
+      "rows": 6,
+      "columns": 7,
+      "missing_cells": 0,
+      "missing_pct": 0.0,
+      "duplicate_rows": 0,
+      "duplicate_pct": 0.0
+    },
+    "date.csv": {
+      "rows": 731,
+      "columns": 13,
+      "missing_cells": 0,
+      "missing_pct": 0.0,
+      "duplicate_rows": 0,
+      "duplicate_pct": 0.0
+    },
+    "event_log.csv": {
+      "rows": 6,
+      "columns": 13,
+      "missing_cells": 0,
+      "missing_pct": 0.0,
+      "duplicate_rows": 0,
+      "duplicate_pct": 0.0
+    },
+    "demand.csv": {
+      "rows": 262978,
+      "columns": 8,
+      "missing_cells": 0,
+      "missing_pct": 0.0,
+      "duplicate_rows": 0,
+      "duplicate_pct": 0.0
+    },
+    "inventory.csv": {
+      "rows": 175440,
+      "columns": 21,
+      "missing_cells": 0,
+      "missing_pct": 0.0,
+      "duplicate_rows": 0,
+      "duplicate_pct": 0.0
+    },
+    "purchase_orders.csv": {
+      "rows": 11665,
+      "columns": 19,
+      "missing_cells": 0,
+      "missing_pct": 0.0,
+      "duplicate_rows": 0,
+      "duplicate_pct": 0.0
+    },
+    "transport.csv": {
+      "rows": 11665,
+      "columns": 10,
+      "missing_cells": 0,
+      "missing_pct": 0.0,
+      "duplicate_rows": 0,
+      "duplicate_pct": 0.0
+    }
+  },
+  "audit_trail_actions": [
+    {
+      "table_name": "demand.csv",
+      "action": "DEDUPLICATE",
+      "records_affected": 120,
+      "rule_id": "DQ-003",
+      "reason": "Removed exact duplicate demand rows.",
+      "disposition": "REMOVED"
+    },
+    {
+      "table_name": "demand.csv",
+      "action": "QUARANTINE_NULL_OR_ORPHAN_KEY",
+      "records_affected": 110,
+      "rule_id": "DQ-001/005",
+      "reason": "Removed demand records with null or non-existent product IDs.",
+      "disposition": "REMOVED"
+    },
+    {
+      "table_name": "demand.csv",
+      "action": "QUARANTINE_INVALID_DATE",
+      "records_affected": 44,
+      "rule_id": "DQ-002",
+      "reason": "Removed demand records with malformed date timestamps.",
+      "disposition": "REMOVED"
+    },
+    {
+      "table_name": "demand.csv",
+      "action": "REPAIR_NEGATIVE_VALUE",
+      "records_affected": 30,
+      "rule_id": "DQ-004",
+      "reason": "Clamped negative demand requested values to zero floor.",
+      "disposition": "REPAIRED"
+    },
+    {
+      "table_name": "demand.csv",
+      "action": "ANNOTATE_OUTLIER",
+      "records_affected": 577,
+      "rule_id": "DQ-007",
+      "reason": "Flagged statistical demand outliers for analytical awareness.",
+      "disposition": "RETAINED_WITH_FLAG"
+    },
+    {
+      "table_name": "purchase_orders.csv",
+      "action": "DEDUPLICATE",
+      "records_affected": 50,
+      "rule_id": "DQ-003",
+      "reason": "Removed exact duplicate purchase order rows.",
+      "disposition": "REMOVED"
+    },
+    {
+      "table_name": "purchase_orders.csv",
+      "action": "DEDUPLICATE_PRIMARY_KEY",
+      "records_affected": 25,
+      "rule_id": "DQ-003",
+      "reason": "Quarantined conflicting duplicate po_id entries, preserving first authenticated record.",
+      "disposition": "REMOVED"
+    },
+    {
+      "table_name": "purchase_orders.csv",
+      "action": "QUARANTINE_NULL_OR_ORPHAN_KEY",
+      "records_affected": 65,
+      "rule_id": "DQ-001/005",
+      "reason": "Removed purchase orders referencing null or non-existent supplier IDs.",
+      "disposition": "REMOVED"
+    },
+    {
+      "table_name": "purchase_orders.csv",
+      "action": "REPAIR_NEGATIVE_PRICE",
+      "records_affected": 14,
+      "rule_id": "DQ-004",
+      "reason": "Restored negative unit cost on purchase orders using product master standard cost.",
+      "disposition": "REPAIRED"
+    },
+    {
+      "table_name": "inventory.csv",
+      "action": "REPAIR_INVENTORY_BALANCE",
+      "records_affected": 40,
+      "rule_id": "DQ-006",
+      "reason": "Re-derived ending inventory from beginning stock, receipts, and demand fulfillment.",
+      "disposition": "REPAIRED"
+    },
+    {
+      "table_name": "transport.csv",
+      "action": "QUARANTINE_ORPHAN_TRANSPORT",
+      "records_affected": 65,
+      "rule_id": "DQ-005",
+      "reason": "Removed transport shipments whose associated PO was quarantined.",
+      "disposition": "REMOVED"
+    }
+  ],
+  "pre_issues_detected": [
+    {
+      "rule_id": "DQ-001",
+      "rule_name": "NOT_NULL_KEYS",
+      "table_name": "demand.csv",
+      "severity": "ERROR",
+      "row_count": 60,
+      "column_name": "product_id",
+      "description": "Column 'product_id' in 'demand.csv' contains 60 null or blank values.",
+      "action_suggested": "Quarantine and remove records with missing mandatory identifiers."
+    },
+    {
+      "rule_id": "DQ-001",
+      "rule_name": "NOT_NULL_KEYS",
+      "table_name": "purchase_orders.csv",
+      "severity": "ERROR",
+      "row_count": 36,
+      "column_name": "supplier_id",
+      "description": "Column 'supplier_id' in 'purchase_orders.csv' contains 36 null or blank values.",
+      "action_suggested": "Quarantine and remove records with missing mandatory identifiers."
+    },
+    {
+      "rule_id": "DQ-002",
+      "rule_name": "VALID_DATE_FORMAT",
+      "table_name": "demand.csv",
+      "severity": "ERROR",
+      "row_count": 45,
+      "column_name": "date",
+      "description": "Column 'date' in 'demand.csv' has 45 invalid or out-of-range dates.",
+      "action_suggested": "Quarantine unparseable dates or restore from primary calendar if deterministic."
+    },
+    {
+      "rule_id": "DQ-003",
+      "rule_name": "NO_DUPLICATE_ROWS",
+      "table_name": "demand.csv",
+      "severity": "ERROR",
+      "row_count": 120,
+      "column_name": "ALL",
+      "description": "Table 'demand.csv' contains 120 duplicate records.",
+      "action_suggested": "Deduplicate records, retaining first authenticated entry."
+    },
+    {
+      "rule_id": "DQ-003",
+      "rule_name": "NO_DUPLICATE_ROWS",
+      "table_name": "purchase_orders.csv",
+      "severity": "ERROR",
+      "row_count": 75,
+      "column_name": "po_id",
+      "description": "Table 'purchase_orders.csv' contains 75 duplicate records.",
+      "action_suggested": "Deduplicate records, retaining first authenticated entry."
+    },
+    {
+      "rule_id": "DQ-004",
+      "rule_name": "NON_NEGATIVE_NUMERICS",
+      "table_name": "demand.csv",
+      "severity": "ERROR",
+      "row_count": 30,
+      "column_name": "demand_requested",
+      "description": "Column 'demand_requested' in 'demand.csv' contains 30 negative values.",
+      "action_suggested": "Repair by zero-clamping or absolute correction, logging the adjustment."
+    },
+    {
+      "rule_id": "DQ-004",
+      "rule_name": "NON_NEGATIVE_NUMERICS",
+      "table_name": "inventory.csv",
+      "severity": "ERROR",
+      "row_count": 20,
+      "column_name": "ending_inventory",
+      "description": "Column 'ending_inventory' in 'inventory.csv' contains 20 negative values.",
+      "action_suggested": "Repair by zero-clamping or absolute correction, logging the adjustment."
+    },
+    {
+      "rule_id": "DQ-004",
+      "rule_name": "NON_NEGATIVE_NUMERICS",
+      "table_name": "purchase_orders.csv",
+      "severity": "ERROR",
+      "row_count": 15,
+      "column_name": "unit_cost",
+      "description": "Column 'unit_cost' in 'purchase_orders.csv' contains 15 negative values.",
+      "action_suggested": "Repair by zero-clamping or absolute correction, logging the adjustment."
+    },
+    {
+      "rule_id": "DQ-005",
+      "rule_name": "REFERENTIAL_INTEGRITY",
+      "table_name": "demand.csv",
+      "severity": "ERROR",
+      "row_count": 50,
+      "column_name": "product_id",
+      "description": "Foreign key 'product_id' in 'demand.csv' contains 50 orphan records not found in parent master.",
+      "action_suggested": "Quarantine orphan records that cannot be joined to master dimensions."
+    },
+    {
+      "rule_id": "DQ-005",
+      "rule_name": "REFERENTIAL_INTEGRITY",
+      "table_name": "purchase_orders.csv",
+      "severity": "ERROR",
+      "row_count": 30,
+      "column_name": "supplier_id",
+      "description": "Foreign key 'supplier_id' in 'purchase_orders.csv' contains 30 orphan records not found in parent master.",
+      "action_suggested": "Quarantine orphan records that cannot be joined to master dimensions."
+    },
+    {
+      "rule_id": "DQ-006",
+      "rule_name": "TEMPORAL_CONTINUITY",
+      "table_name": "demand.csv",
+      "severity": "WARNING",
+      "row_count": 36,
+      "column_name": "date",
+      "description": "Detected 36 time-series entities with missing calendar dates (< 731 observations).",
+      "action_suggested": "Re-index to continuous calendar, forward-filling or imputing missing daily observations."
+    },
+    {
+      "rule_id": "DQ-007",
+      "rule_name": "STATISTICAL_OUTLIERS",
+      "table_name": "demand.csv",
+      "severity": "WARNING",
+      "row_count": 661,
+      "column_name": "demand_requested",
+      "description": "Found 661 statistical outliers (|z| > 4.5) in 'demand_requested'.",
+      "action_suggested": "Flag for anomaly analysis; do not remove valid physical demand spikes."
+    }
+  ],
+  "post_issues_detected": [
+    {
+      "rule_id": "DQ-006",
+      "rule_name": "TEMPORAL_CONTINUITY",
+      "table_name": "demand.csv",
+      "severity": "WARNING",
+      "row_count": 41,
+      "column_name": "date",
+      "description": "Detected 41 time-series entities with missing calendar dates (< 731 observations).",
+      "action_suggested": "Re-index to continuous calendar, forward-filling or imputing missing daily observations."
+    },
+    {
+      "rule_id": "DQ-007",
+      "rule_name": "STATISTICAL_OUTLIERS",
+      "table_name": "demand.csv",
+      "severity": "WARNING",
+      "row_count": 660,
+      "column_name": "demand_requested",
+      "description": "Found 660 statistical outliers (|z| > 4.5) in 'demand_requested'.",
+      "action_suggested": "Flag for anomaly analysis; do not remove valid physical demand spikes."
+    }
+  ]
+}

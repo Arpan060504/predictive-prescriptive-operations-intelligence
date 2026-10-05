@@ -1,0 +1,12 @@
+table_name,action,records_affected,rule_id,reason,disposition
+demand.csv,DEDUPLICATE,120,DQ-003,Removed exact duplicate demand rows.,REMOVED
+demand.csv,QUARANTINE_NULL_OR_ORPHAN_KEY,110,DQ-001/005,Removed demand records with null or non-existent product IDs.,REMOVED
+demand.csv,QUARANTINE_INVALID_DATE,44,DQ-002,Removed demand records with malformed date timestamps.,REMOVED
+demand.csv,REPAIR_NEGATIVE_VALUE,30,DQ-004,Clamped negative demand requested values to zero floor.,REPAIRED
+demand.csv,ANNOTATE_OUTLIER,577,DQ-007,Flagged statistical demand outliers for analytical awareness.,RETAINED_WITH_FLAG
+purchase_orders.csv,DEDUPLICATE,50,DQ-003,Removed exact duplicate purchase order rows.,REMOVED
+purchase_orders.csv,DEDUPLICATE_PRIMARY_KEY,25,DQ-003,"Quarantined conflicting duplicate po_id entries, preserving first authenticated record.",REMOVED
+purchase_orders.csv,QUARANTINE_NULL_OR_ORPHAN_KEY,65,DQ-001/005,Removed purchase orders referencing null or non-existent supplier IDs.,REMOVED
+purchase_orders.csv,REPAIR_NEGATIVE_PRICE,14,DQ-004,Restored negative unit cost on purchase orders using product master standard cost.,REPAIRED
+inventory.csv,REPAIR_INVENTORY_BALANCE,40,DQ-006,"Re-derived ending inventory from beginning stock, receipts, and demand fulfillment.",REPAIRED
+transport.csv,QUARANTINE_ORPHAN_TRANSPORT,65,DQ-005,Removed transport shipments whose associated PO was quarantined.,REMOVED

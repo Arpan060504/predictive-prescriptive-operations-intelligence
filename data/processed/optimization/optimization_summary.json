@@ -1,0 +1,35 @@
+{
+  "run_id": "OPT-BASE-20261004022420",
+  "decision_date": "2025-12-25",
+  "status": "OPTIMAL",
+  "solve_time_seconds": 0.0341,
+  "baseline_total_cost": 1220182.26,
+  "optimized_total_cost": 136859.92,
+  "cost_difference": 1083322.34,
+  "cost_reduction_pct": 88.78,
+  "service_level": 1.0,
+  "total_demand": 27001.45,
+  "total_fulfilled": 27001.45,
+  "total_ordered": 7561.14,
+  "total_transferred": 5978.42,
+  "transfers_count": 67,
+  "executive_narrative": "Prescriptive plan for scenario 'baseline' completed in 0.034s with optimal status (OPTIMAL). The network achieves an aggregate service level of 100.0% across 27,001 units of 7-day demand. Under identical operational conditions, the prescriptive policy yields a modeled landed cost of $136,859.92, representing a modeled reduction of $1,083,322.34 (88.8%) compared to the decentralized heuristic baseline ($1,220,182.26). Key operational interventions include executing 67 lateral transshipment routes (5,978 units pooled between regional hubs) and issuing 7,561 units in replenishment purchase orders diversified across qualified primary and secondary suppliers.",
+  "cost_breakdown_optimized": {
+    "procurement_cost": 68557.94,
+    "transport_cost": 19452.54,
+    "transshipment_cost": 25755.37,
+    "holding_cost": 12886.53,
+    "shortage_cost": 0.0,
+    "supplier_risk_cost": 10207.55,
+    "total_landed_cost": 136859.92
+  },
+  "cost_breakdown_baseline": {
+    "procurement_cost": 1043714.68,
+    "transport_cost": 92979.91,
+    "transshipment_cost": 0.0,
+    "holding_cost": 16630.6,
+    "shortage_cost": 0.0,
+    "supplier_risk_cost": 66857.06,
+    "total_landed_cost": 1220182.26
+  }
+}

@@ -1,0 +1,512 @@
+issue_id,table_name,row_index,column_name,original_value,corrupted_value,issue_category,severity,description
+INJ-00001,demand.csv,203629,product_id,SKU-047,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00002,demand.csv,16792,product_id,SKU-004,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00003,demand.csv,72826,product_id,SKU-017,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00004,demand.csv,95762,product_id,SKU-022,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00005,demand.csv,184337,product_id,SKU-043,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00006,demand.csv,204831,product_id,SKU-047,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00007,demand.csv,220953,product_id,SKU-051,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00008,demand.csv,113928,product_id,SKU-026,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00009,demand.csv,116675,product_id,SKU-027,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00010,demand.csv,131653,product_id,SKU-031,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00011,demand.csv,255435,product_id,SKU-059,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00012,demand.csv,225848,product_id,SKU-052,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00013,demand.csv,53008,product_id,SKU-013,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00014,demand.csv,105886,product_id,SKU-025,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00015,demand.csv,256697,product_id,SKU-059,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00016,demand.csv,193586,product_id,SKU-045,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00017,demand.csv,23482,product_id,SKU-006,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00018,demand.csv,17872,product_id,SKU-005,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00019,demand.csv,145930,product_id,SKU-034,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00020,demand.csv,135038,product_id,SKU-031,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00021,demand.csv,172219,product_id,SKU-040,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00022,demand.csv,195626,product_id,SKU-045,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00023,demand.csv,206826,product_id,SKU-048,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00024,demand.csv,225902,product_id,SKU-052,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00025,demand.csv,183483,product_id,SKU-042,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00026,demand.csv,43478,product_id,SKU-010,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00027,demand.csv,24243,product_id,SKU-006,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00028,demand.csv,143518,product_id,SKU-033,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00029,demand.csv,199484,product_id,SKU-046,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00030,demand.csv,200266,product_id,SKU-046,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00031,demand.csv,169417,product_id,SKU-039,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00032,demand.csv,233634,product_id,SKU-054,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00033,demand.csv,138522,product_id,SKU-032,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00034,demand.csv,51219,product_id,SKU-012,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00035,demand.csv,205649,product_id,SKU-047,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00036,demand.csv,235023,product_id,SKU-054,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00037,demand.csv,118529,product_id,SKU-028,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00038,demand.csv,117281,product_id,SKU-027,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00039,demand.csv,130996,product_id,SKU-030,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00040,demand.csv,217781,product_id,SKU-050,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00041,demand.csv,216491,product_id,SKU-050,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00042,demand.csv,199968,product_id,SKU-046,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00043,demand.csv,122819,product_id,SKU-029,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00044,demand.csv,188779,product_id,SKU-044,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00045,demand.csv,40602,product_id,SKU-010,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00046,demand.csv,59793,product_id,SKU-014,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00047,demand.csv,22612,product_id,SKU-006,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00048,demand.csv,48033,product_id,SKU-011,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00049,demand.csv,24779,product_id,SKU-006,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00050,demand.csv,166216,product_id,SKU-038,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00051,demand.csv,143833,product_id,SKU-033,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00052,demand.csv,115470,product_id,SKU-027,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00053,demand.csv,118505,product_id,SKU-028,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00054,demand.csv,178393,product_id,SKU-041,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00055,demand.csv,33709,product_id,SKU-008,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00056,demand.csv,243854,product_id,SKU-056,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00057,demand.csv,179751,product_id,SKU-041,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00058,demand.csv,97565,product_id,SKU-023,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00059,demand.csv,93291,product_id,SKU-022,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00060,demand.csv,11527,product_id,SKU-003,NULL,NULL_KEY,ERROR,Product ID set to NaN in customer demand request.
+INJ-00061,purchase_orders.csv,3559,supplier_id,SUP-03,NULL,NULL_KEY,ERROR,Supplier ID set to NaN on replenishment purchase order.
+INJ-00062,purchase_orders.csv,6548,supplier_id,SUP-07,NULL,NULL_KEY,ERROR,Supplier ID set to NaN on replenishment purchase order.
+INJ-00063,purchase_orders.csv,9634,supplier_id,SUP-08,NULL,NULL_KEY,ERROR,Supplier ID set to NaN on replenishment purchase order.
+INJ-00064,purchase_orders.csv,5116,supplier_id,SUP-06,NULL,NULL_KEY,ERROR,Supplier ID set to NaN on replenishment purchase order.
+INJ-00065,purchase_orders.csv,406,supplier_id,SUP-01,NULL,NULL_KEY,ERROR,Supplier ID set to NaN on replenishment purchase order.
+INJ-00066,purchase_orders.csv,3300,supplier_id,SUP-03,NULL,NULL_KEY,ERROR,Supplier ID set to NaN on replenishment purchase order.
+INJ-00067,purchase_orders.csv,11514,supplier_id,SUP-04,NULL,NULL_KEY,ERROR,Supplier ID set to NaN on replenishment purchase order.
+INJ-00068,purchase_orders.csv,683,supplier_id,SUP-05,NULL,NULL_KEY,ERROR,Supplier ID set to NaN on replenishment purchase order.
+INJ-00069,purchase_orders.csv,8953,supplier_id,SUP-01,NULL,NULL_KEY,ERROR,Supplier ID set to NaN on replenishment purchase order.
+INJ-00070,purchase_orders.csv,10005,supplier_id,SUP-02,NULL,NULL_KEY,ERROR,Supplier ID set to NaN on replenishment purchase order.
+INJ-00071,purchase_orders.csv,6481,supplier_id,SUP-07,NULL,NULL_KEY,ERROR,Supplier ID set to NaN on replenishment purchase order.
+INJ-00072,purchase_orders.csv,10034,supplier_id,SUP-02,NULL,NULL_KEY,ERROR,Supplier ID set to NaN on replenishment purchase order.
+INJ-00073,purchase_orders.csv,6725,supplier_id,SUP-06,NULL,NULL_KEY,ERROR,Supplier ID set to NaN on replenishment purchase order.
+INJ-00074,purchase_orders.csv,6614,supplier_id,SUP-07,NULL,NULL_KEY,ERROR,Supplier ID set to NaN on replenishment purchase order.
+INJ-00075,purchase_orders.csv,4787,supplier_id,SUP-02,NULL,NULL_KEY,ERROR,Supplier ID set to NaN on replenishment purchase order.
+INJ-00076,purchase_orders.csv,10003,supplier_id,SUP-04,NULL,NULL_KEY,ERROR,Supplier ID set to NaN on replenishment purchase order.
+INJ-00077,purchase_orders.csv,1060,supplier_id,SUP-01,NULL,NULL_KEY,ERROR,Supplier ID set to NaN on replenishment purchase order.
+INJ-00078,purchase_orders.csv,5142,supplier_id,SUP-06,NULL,NULL_KEY,ERROR,Supplier ID set to NaN on replenishment purchase order.
+INJ-00079,purchase_orders.csv,7818,supplier_id,SUP-06,NULL,NULL_KEY,ERROR,Supplier ID set to NaN on replenishment purchase order.
+INJ-00080,purchase_orders.csv,1339,supplier_id,SUP-01,NULL,NULL_KEY,ERROR,Supplier ID set to NaN on replenishment purchase order.
+INJ-00081,purchase_orders.csv,10763,supplier_id,SUP-04,NULL,NULL_KEY,ERROR,Supplier ID set to NaN on replenishment purchase order.
+INJ-00082,purchase_orders.csv,7656,supplier_id,SUP-06,NULL,NULL_KEY,ERROR,Supplier ID set to NaN on replenishment purchase order.
+INJ-00083,purchase_orders.csv,926,supplier_id,SUP-01,NULL,NULL_KEY,ERROR,Supplier ID set to NaN on replenishment purchase order.
+INJ-00084,purchase_orders.csv,4070,supplier_id,SUP-02,NULL,NULL_KEY,ERROR,Supplier ID set to NaN on replenishment purchase order.
+INJ-00085,purchase_orders.csv,11635,supplier_id,SUP-04,NULL,NULL_KEY,ERROR,Supplier ID set to NaN on replenishment purchase order.
+INJ-00086,purchase_orders.csv,7430,supplier_id,SUP-06,NULL,NULL_KEY,ERROR,Supplier ID set to NaN on replenishment purchase order.
+INJ-00087,purchase_orders.csv,6618,supplier_id,SUP-07,NULL,NULL_KEY,ERROR,Supplier ID set to NaN on replenishment purchase order.
+INJ-00088,purchase_orders.csv,361,supplier_id,SUP-01,NULL,NULL_KEY,ERROR,Supplier ID set to NaN on replenishment purchase order.
+INJ-00089,purchase_orders.csv,2742,supplier_id,SUP-08,NULL,NULL_KEY,ERROR,Supplier ID set to NaN on replenishment purchase order.
+INJ-00090,purchase_orders.csv,3240,supplier_id,SUP-03,NULL,NULL_KEY,ERROR,Supplier ID set to NaN on replenishment purchase order.
+INJ-00091,purchase_orders.csv,3443,supplier_id,SUP-08,NULL,NULL_KEY,ERROR,Supplier ID set to NaN on replenishment purchase order.
+INJ-00092,purchase_orders.csv,7061,supplier_id,SUP-07,NULL,NULL_KEY,ERROR,Supplier ID set to NaN on replenishment purchase order.
+INJ-00093,purchase_orders.csv,5511,supplier_id,SUP-02,NULL,NULL_KEY,ERROR,Supplier ID set to NaN on replenishment purchase order.
+INJ-00094,purchase_orders.csv,2514,supplier_id,SUP-03,NULL,NULL_KEY,ERROR,Supplier ID set to NaN on replenishment purchase order.
+INJ-00095,purchase_orders.csv,9309,supplier_id,SUP-08,NULL,NULL_KEY,ERROR,Supplier ID set to NaN on replenishment purchase order.
+INJ-00096,demand.csv,121896,date,2025-07-04,2024-02-30,INVALID_DATE,ERROR,Date timestamp corrupted to invalid string '2024-02-30'.
+INJ-00097,demand.csv,237517,date,2025-11-04,INVALID_DATE,INVALID_DATE,ERROR,Date timestamp corrupted to invalid string 'INVALID_DATE'.
+INJ-00098,demand.csv,89184,date,2024-01-03,2024-02-30,INVALID_DATE,ERROR,Date timestamp corrupted to invalid string '2024-02-30'.
+INJ-00099,demand.csv,20855,date,2025-01-22,INVALID_DATE,INVALID_DATE,ERROR,Date timestamp corrupted to invalid string 'INVALID_DATE'.
+INJ-00100,demand.csv,25364,date,2025-05-25,2024-02-30,INVALID_DATE,ERROR,Date timestamp corrupted to invalid string '2024-02-30'.
+INJ-00101,demand.csv,31050,date,2024-12-14,INVALID_DATE,INVALID_DATE,ERROR,Date timestamp corrupted to invalid string 'INVALID_DATE'.
+INJ-00102,demand.csv,62823,date,2025-11-19,2024-02-30,INVALID_DATE,ERROR,Date timestamp corrupted to invalid string '2024-02-30'.
+INJ-00103,demand.csv,120361,date,2025-04-22,INVALID_DATE,INVALID_DATE,ERROR,Date timestamp corrupted to invalid string 'INVALID_DATE'.
+INJ-00104,demand.csv,201094,date,2024-03-10,2024-02-30,INVALID_DATE,ERROR,Date timestamp corrupted to invalid string '2024-02-30'.
+INJ-00105,demand.csv,252516,date,2024-11-17,INVALID_DATE,INVALID_DATE,ERROR,Date timestamp corrupted to invalid string 'INVALID_DATE'.
+INJ-00106,demand.csv,255024,date,2025-09-28,2024-02-30,INVALID_DATE,ERROR,Date timestamp corrupted to invalid string '2024-02-30'.
+INJ-00107,demand.csv,46518,date,2025-04-10,INVALID_DATE,INVALID_DATE,ERROR,Date timestamp corrupted to invalid string 'INVALID_DATE'.
+INJ-00108,demand.csv,23062,date,2025-02-05,2024-02-30,INVALID_DATE,ERROR,Date timestamp corrupted to invalid string '2024-02-30'.
+INJ-00109,demand.csv,143921,date,2025-10-07,INVALID_DATE,INVALID_DATE,ERROR,Date timestamp corrupted to invalid string 'INVALID_DATE'.
+INJ-00110,demand.csv,193914,date,2024-07-18,2024-02-30,INVALID_DATE,ERROR,Date timestamp corrupted to invalid string '2024-02-30'.
+INJ-00111,demand.csv,118245,date,2025-07-08,INVALID_DATE,INVALID_DATE,ERROR,Date timestamp corrupted to invalid string 'INVALID_DATE'.
+INJ-00112,demand.csv,69342,date,2025-09-20,2024-02-30,INVALID_DATE,ERROR,Date timestamp corrupted to invalid string '2024-02-30'.
+INJ-00113,demand.csv,119937,date,2024-02-23,INVALID_DATE,INVALID_DATE,ERROR,Date timestamp corrupted to invalid string 'INVALID_DATE'.
+INJ-00114,demand.csv,253101,date,2024-06-24,2024-02-30,INVALID_DATE,ERROR,Date timestamp corrupted to invalid string '2024-02-30'.
+INJ-00115,demand.csv,5137,date,2024-01-21,INVALID_DATE,INVALID_DATE,ERROR,Date timestamp corrupted to invalid string 'INVALID_DATE'.
+INJ-00116,demand.csv,33571,date,2025-11-07,2024-02-30,INVALID_DATE,ERROR,Date timestamp corrupted to invalid string '2024-02-30'.
+INJ-00117,demand.csv,130266,date,2024-05-28,INVALID_DATE,INVALID_DATE,ERROR,Date timestamp corrupted to invalid string 'INVALID_DATE'.
+INJ-00118,demand.csv,53252,date,2025-09-12,2024-02-30,INVALID_DATE,ERROR,Date timestamp corrupted to invalid string '2024-02-30'.
+INJ-00119,demand.csv,184114,date,2025-09-25,INVALID_DATE,INVALID_DATE,ERROR,Date timestamp corrupted to invalid string 'INVALID_DATE'.
+INJ-00120,demand.csv,90143,date,2024-08-18,2024-02-30,INVALID_DATE,ERROR,Date timestamp corrupted to invalid string '2024-02-30'.
+INJ-00121,demand.csv,159765,date,2025-02-11,INVALID_DATE,INVALID_DATE,ERROR,Date timestamp corrupted to invalid string 'INVALID_DATE'.
+INJ-00122,demand.csv,239073,date,2024-02-06,2024-02-30,INVALID_DATE,ERROR,Date timestamp corrupted to invalid string '2024-02-30'.
+INJ-00123,demand.csv,80513,date,2024-04-13,INVALID_DATE,INVALID_DATE,ERROR,Date timestamp corrupted to invalid string 'INVALID_DATE'.
+INJ-00124,demand.csv,79332,date,2025-01-19,2024-02-30,INVALID_DATE,ERROR,Date timestamp corrupted to invalid string '2024-02-30'.
+INJ-00125,demand.csv,188641,date,2024-02-13,INVALID_DATE,INVALID_DATE,ERROR,Date timestamp corrupted to invalid string 'INVALID_DATE'.
+INJ-00126,demand.csv,152424,date,2025-01-11,2024-02-30,INVALID_DATE,ERROR,Date timestamp corrupted to invalid string '2024-02-30'.
+INJ-00127,demand.csv,212802,date,2024-03-22,INVALID_DATE,INVALID_DATE,ERROR,Date timestamp corrupted to invalid string 'INVALID_DATE'.
+INJ-00128,demand.csv,179893,date,2024-03-08,2024-02-30,INVALID_DATE,ERROR,Date timestamp corrupted to invalid string '2024-02-30'.
+INJ-00129,demand.csv,189894,date,2025-07-19,INVALID_DATE,INVALID_DATE,ERROR,Date timestamp corrupted to invalid string 'INVALID_DATE'.
+INJ-00130,demand.csv,68715,date,2024-01-02,2024-02-30,INVALID_DATE,ERROR,Date timestamp corrupted to invalid string '2024-02-30'.
+INJ-00131,demand.csv,165839,date,2025-09-25,INVALID_DATE,INVALID_DATE,ERROR,Date timestamp corrupted to invalid string 'INVALID_DATE'.
+INJ-00132,demand.csv,225425,date,2024-10-04,2024-02-30,INVALID_DATE,ERROR,Date timestamp corrupted to invalid string '2024-02-30'.
+INJ-00133,demand.csv,95200,date,2024-06-19,INVALID_DATE,INVALID_DATE,ERROR,Date timestamp corrupted to invalid string 'INVALID_DATE'.
+INJ-00134,demand.csv,207619,date,2024-01-16,2024-02-30,INVALID_DATE,ERROR,Date timestamp corrupted to invalid string '2024-02-30'.
+INJ-00135,demand.csv,96374,date,2025-09-05,INVALID_DATE,INVALID_DATE,ERROR,Date timestamp corrupted to invalid string 'INVALID_DATE'.
+INJ-00136,demand.csv,69959,date,2025-05-29,2024-02-30,INVALID_DATE,ERROR,Date timestamp corrupted to invalid string '2024-02-30'.
+INJ-00137,demand.csv,71638,date,2024-01-01,INVALID_DATE,INVALID_DATE,ERROR,Date timestamp corrupted to invalid string 'INVALID_DATE'.
+INJ-00138,demand.csv,117632,date,2025-11-03,2024-02-30,INVALID_DATE,ERROR,Date timestamp corrupted to invalid string '2024-02-30'.
+INJ-00139,demand.csv,204918,date,2024-08-26,INVALID_DATE,INVALID_DATE,ERROR,Date timestamp corrupted to invalid string 'INVALID_DATE'.
+INJ-00140,demand.csv,185266,date,2024-11-19,2024-02-30,INVALID_DATE,ERROR,Date timestamp corrupted to invalid string '2024-02-30'.
+INJ-00141,demand.csv,207488,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00142,demand.csv,51307,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00143,demand.csv,123159,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00144,demand.csv,189305,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00145,demand.csv,213889,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00146,demand.csv,111996,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00147,demand.csv,19577,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00148,demand.csv,26718,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00149,demand.csv,32615,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00150,demand.csv,204340,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00151,demand.csv,199717,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00152,demand.csv,139412,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00153,demand.csv,199458,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00154,demand.csv,151666,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00155,demand.csv,146644,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00156,demand.csv,52531,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00157,demand.csv,52076,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00158,demand.csv,109901,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00159,demand.csv,149035,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00160,demand.csv,192626,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00161,demand.csv,162398,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00162,demand.csv,230435,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00163,demand.csv,165199,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00164,demand.csv,101273,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00165,demand.csv,80942,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00166,demand.csv,81833,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00167,demand.csv,205270,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00168,demand.csv,76817,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00169,demand.csv,66959,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00170,demand.csv,3952,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00171,demand.csv,107506,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00172,demand.csv,33004,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00173,demand.csv,19047,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00174,demand.csv,196100,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00175,demand.csv,184773,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00176,demand.csv,157971,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00177,demand.csv,123955,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00178,demand.csv,122703,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00179,demand.csv,53515,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00180,demand.csv,49636,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00181,demand.csv,62392,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00182,demand.csv,37636,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00183,demand.csv,259550,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00184,demand.csv,24169,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00185,demand.csv,200264,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00186,demand.csv,39683,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00187,demand.csv,117576,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00188,demand.csv,3312,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00189,demand.csv,251966,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00190,demand.csv,33271,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00191,demand.csv,241667,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00192,demand.csv,205024,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00193,demand.csv,5090,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00194,demand.csv,190552,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00195,demand.csv,262082,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00196,demand.csv,133973,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00197,demand.csv,174886,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00198,demand.csv,107667,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00199,demand.csv,59313,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00200,demand.csv,120892,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00201,demand.csv,53697,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00202,demand.csv,224289,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00203,demand.csv,157331,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00204,demand.csv,183967,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00205,demand.csv,86461,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00206,demand.csv,114907,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00207,demand.csv,209680,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00208,demand.csv,246853,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00209,demand.csv,10828,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00210,demand.csv,67159,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00211,demand.csv,92000,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00212,demand.csv,263035,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00213,demand.csv,184242,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00214,demand.csv,213577,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00215,demand.csv,217807,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00216,demand.csv,209765,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00217,demand.csv,96315,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00218,demand.csv,67166,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00219,demand.csv,235000,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00220,demand.csv,24487,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00221,demand.csv,67044,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00222,demand.csv,189368,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00223,demand.csv,17749,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00224,demand.csv,62807,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00225,demand.csv,16143,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00226,demand.csv,64826,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00227,demand.csv,240819,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00228,demand.csv,111139,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00229,demand.csv,182772,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00230,demand.csv,257429,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00231,demand.csv,48957,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00232,demand.csv,174567,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00233,demand.csv,72318,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00234,demand.csv,220957,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00235,demand.csv,228756,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00236,demand.csv,69629,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00237,demand.csv,162722,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00238,demand.csv,39616,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00239,demand.csv,63231,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00240,demand.csv,166208,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00241,demand.csv,49495,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00242,demand.csv,111068,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00243,demand.csv,248105,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00244,demand.csv,147549,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00245,demand.csv,46430,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00246,demand.csv,109872,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00247,demand.csv,203603,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00248,demand.csv,221788,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00249,demand.csv,47430,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00250,demand.csv,194090,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00251,demand.csv,100332,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00252,demand.csv,173477,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00253,demand.csv,205488,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00254,demand.csv,37898,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00255,demand.csv,186578,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00256,demand.csv,78446,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00257,demand.csv,261605,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00258,demand.csv,48173,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00259,demand.csv,113908,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00260,demand.csv,207567,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate demand transaction row.
+INJ-00261,purchase_orders.csv,4217,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00262,purchase_orders.csv,8658,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00263,purchase_orders.csv,6862,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00264,purchase_orders.csv,10889,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00265,purchase_orders.csv,6422,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00266,purchase_orders.csv,8598,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00267,purchase_orders.csv,9250,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00268,purchase_orders.csv,4132,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00269,purchase_orders.csv,8185,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00270,purchase_orders.csv,6482,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00271,purchase_orders.csv,8657,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00272,purchase_orders.csv,7371,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00273,purchase_orders.csv,245,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00274,purchase_orders.csv,2585,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00275,purchase_orders.csv,8943,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00276,purchase_orders.csv,200,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00277,purchase_orders.csv,3817,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00278,purchase_orders.csv,10269,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00279,purchase_orders.csv,10790,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00280,purchase_orders.csv,10277,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00281,purchase_orders.csv,4561,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00282,purchase_orders.csv,10851,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00283,purchase_orders.csv,1923,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00284,purchase_orders.csv,6567,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00285,purchase_orders.csv,7375,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00286,purchase_orders.csv,6720,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00287,purchase_orders.csv,4526,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00288,purchase_orders.csv,9199,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00289,purchase_orders.csv,3941,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00290,purchase_orders.csv,6648,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00291,purchase_orders.csv,9988,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00292,purchase_orders.csv,10723,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00293,purchase_orders.csv,6856,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00294,purchase_orders.csv,10883,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00295,purchase_orders.csv,2021,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00296,purchase_orders.csv,4681,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00297,purchase_orders.csv,6357,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00298,purchase_orders.csv,10308,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00299,purchase_orders.csv,5382,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00300,purchase_orders.csv,10034,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00301,purchase_orders.csv,3853,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00302,purchase_orders.csv,99,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00303,purchase_orders.csv,9794,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00304,purchase_orders.csv,4783,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00305,purchase_orders.csv,2901,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00306,purchase_orders.csv,19,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00307,purchase_orders.csv,8683,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00308,purchase_orders.csv,3520,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00309,purchase_orders.csv,11425,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00310,purchase_orders.csv,8270,ALL,ORIGINAL_ROW,DUPLICATE_ROW,DUPLICATE_RECORD,ERROR,Appended exact duplicate purchase order record.
+INJ-00311,purchase_orders.csv,0,po_id,PO-000001,PO-000001_CONFLICT_QTY,DUPLICATE_TRANSACTION_KEY,ERROR,Injected duplicate po_id 'PO-000001' with conflicting quantity (+500 units).
+INJ-00312,purchase_orders.csv,1,po_id,PO-000002,PO-000002_CONFLICT_QTY,DUPLICATE_TRANSACTION_KEY,ERROR,Injected duplicate po_id 'PO-000002' with conflicting quantity (+500 units).
+INJ-00313,purchase_orders.csv,2,po_id,PO-000003,PO-000003_CONFLICT_QTY,DUPLICATE_TRANSACTION_KEY,ERROR,Injected duplicate po_id 'PO-000003' with conflicting quantity (+500 units).
+INJ-00314,purchase_orders.csv,3,po_id,PO-000004,PO-000004_CONFLICT_QTY,DUPLICATE_TRANSACTION_KEY,ERROR,Injected duplicate po_id 'PO-000004' with conflicting quantity (+500 units).
+INJ-00315,purchase_orders.csv,4,po_id,PO-000005,PO-000005_CONFLICT_QTY,DUPLICATE_TRANSACTION_KEY,ERROR,Injected duplicate po_id 'PO-000005' with conflicting quantity (+500 units).
+INJ-00316,purchase_orders.csv,5,po_id,PO-000006,PO-000006_CONFLICT_QTY,DUPLICATE_TRANSACTION_KEY,ERROR,Injected duplicate po_id 'PO-000006' with conflicting quantity (+500 units).
+INJ-00317,purchase_orders.csv,6,po_id,PO-000007,PO-000007_CONFLICT_QTY,DUPLICATE_TRANSACTION_KEY,ERROR,Injected duplicate po_id 'PO-000007' with conflicting quantity (+500 units).
+INJ-00318,purchase_orders.csv,7,po_id,PO-000008,PO-000008_CONFLICT_QTY,DUPLICATE_TRANSACTION_KEY,ERROR,Injected duplicate po_id 'PO-000008' with conflicting quantity (+500 units).
+INJ-00319,purchase_orders.csv,8,po_id,PO-000009,PO-000009_CONFLICT_QTY,DUPLICATE_TRANSACTION_KEY,ERROR,Injected duplicate po_id 'PO-000009' with conflicting quantity (+500 units).
+INJ-00320,purchase_orders.csv,9,po_id,PO-000010,PO-000010_CONFLICT_QTY,DUPLICATE_TRANSACTION_KEY,ERROR,Injected duplicate po_id 'PO-000010' with conflicting quantity (+500 units).
+INJ-00321,purchase_orders.csv,10,po_id,PO-000011,PO-000011_CONFLICT_QTY,DUPLICATE_TRANSACTION_KEY,ERROR,Injected duplicate po_id 'PO-000011' with conflicting quantity (+500 units).
+INJ-00322,purchase_orders.csv,11,po_id,PO-000012,PO-000012_CONFLICT_QTY,DUPLICATE_TRANSACTION_KEY,ERROR,Injected duplicate po_id 'PO-000012' with conflicting quantity (+500 units).
+INJ-00323,purchase_orders.csv,12,po_id,PO-000013,PO-000013_CONFLICT_QTY,DUPLICATE_TRANSACTION_KEY,ERROR,Injected duplicate po_id 'PO-000013' with conflicting quantity (+500 units).
+INJ-00324,purchase_orders.csv,13,po_id,PO-000014,PO-000014_CONFLICT_QTY,DUPLICATE_TRANSACTION_KEY,ERROR,Injected duplicate po_id 'PO-000014' with conflicting quantity (+500 units).
+INJ-00325,purchase_orders.csv,14,po_id,PO-000015,PO-000015_CONFLICT_QTY,DUPLICATE_TRANSACTION_KEY,ERROR,Injected duplicate po_id 'PO-000015' with conflicting quantity (+500 units).
+INJ-00326,purchase_orders.csv,15,po_id,PO-000016,PO-000016_CONFLICT_QTY,DUPLICATE_TRANSACTION_KEY,ERROR,Injected duplicate po_id 'PO-000016' with conflicting quantity (+500 units).
+INJ-00327,purchase_orders.csv,16,po_id,PO-000017,PO-000017_CONFLICT_QTY,DUPLICATE_TRANSACTION_KEY,ERROR,Injected duplicate po_id 'PO-000017' with conflicting quantity (+500 units).
+INJ-00328,purchase_orders.csv,17,po_id,PO-000018,PO-000018_CONFLICT_QTY,DUPLICATE_TRANSACTION_KEY,ERROR,Injected duplicate po_id 'PO-000018' with conflicting quantity (+500 units).
+INJ-00329,purchase_orders.csv,18,po_id,PO-000019,PO-000019_CONFLICT_QTY,DUPLICATE_TRANSACTION_KEY,ERROR,Injected duplicate po_id 'PO-000019' with conflicting quantity (+500 units).
+INJ-00330,purchase_orders.csv,19,po_id,PO-000020,PO-000020_CONFLICT_QTY,DUPLICATE_TRANSACTION_KEY,ERROR,Injected duplicate po_id 'PO-000020' with conflicting quantity (+500 units).
+INJ-00331,purchase_orders.csv,20,po_id,PO-000021,PO-000021_CONFLICT_QTY,DUPLICATE_TRANSACTION_KEY,ERROR,Injected duplicate po_id 'PO-000021' with conflicting quantity (+500 units).
+INJ-00332,purchase_orders.csv,21,po_id,PO-000022,PO-000022_CONFLICT_QTY,DUPLICATE_TRANSACTION_KEY,ERROR,Injected duplicate po_id 'PO-000022' with conflicting quantity (+500 units).
+INJ-00333,purchase_orders.csv,22,po_id,PO-000023,PO-000023_CONFLICT_QTY,DUPLICATE_TRANSACTION_KEY,ERROR,Injected duplicate po_id 'PO-000023' with conflicting quantity (+500 units).
+INJ-00334,purchase_orders.csv,23,po_id,PO-000024,PO-000024_CONFLICT_QTY,DUPLICATE_TRANSACTION_KEY,ERROR,Injected duplicate po_id 'PO-000024' with conflicting quantity (+500 units).
+INJ-00335,purchase_orders.csv,24,po_id,PO-000025,PO-000025_CONFLICT_QTY,DUPLICATE_TRANSACTION_KEY,ERROR,Injected duplicate po_id 'PO-000025' with conflicting quantity (+500 units).
+INJ-00336,demand.csv,8489,demand_requested,29,-29,NEGATIVE_NUMERIC,ERROR,Negative demand requested value created.
+INJ-00337,demand.csv,3021,demand_requested,26,-26,NEGATIVE_NUMERIC,ERROR,Negative demand requested value created.
+INJ-00338,demand.csv,4401,demand_requested,22,-22,NEGATIVE_NUMERIC,ERROR,Negative demand requested value created.
+INJ-00339,demand.csv,3634,demand_requested,48,-48,NEGATIVE_NUMERIC,ERROR,Negative demand requested value created.
+INJ-00340,demand.csv,9358,demand_requested,45,-45,NEGATIVE_NUMERIC,ERROR,Negative demand requested value created.
+INJ-00341,demand.csv,5706,demand_requested,30,-30,NEGATIVE_NUMERIC,ERROR,Negative demand requested value created.
+INJ-00342,demand.csv,5427,demand_requested,35,-35,NEGATIVE_NUMERIC,ERROR,Negative demand requested value created.
+INJ-00343,demand.csv,4854,demand_requested,35,-35,NEGATIVE_NUMERIC,ERROR,Negative demand requested value created.
+INJ-00344,demand.csv,4385,demand_requested,41,-41,NEGATIVE_NUMERIC,ERROR,Negative demand requested value created.
+INJ-00345,demand.csv,7804,demand_requested,17,-17,NEGATIVE_NUMERIC,ERROR,Negative demand requested value created.
+INJ-00346,demand.csv,5412,demand_requested,27,-27,NEGATIVE_NUMERIC,ERROR,Negative demand requested value created.
+INJ-00347,demand.csv,8258,demand_requested,31,-31,NEGATIVE_NUMERIC,ERROR,Negative demand requested value created.
+INJ-00348,demand.csv,5200,demand_requested,39,-39,NEGATIVE_NUMERIC,ERROR,Negative demand requested value created.
+INJ-00349,demand.csv,4726,demand_requested,67,-67,NEGATIVE_NUMERIC,ERROR,Negative demand requested value created.
+INJ-00350,demand.csv,1402,demand_requested,41,-41,NEGATIVE_NUMERIC,ERROR,Negative demand requested value created.
+INJ-00351,demand.csv,647,demand_requested,26,-26,NEGATIVE_NUMERIC,ERROR,Negative demand requested value created.
+INJ-00352,demand.csv,215,demand_requested,40,-40,NEGATIVE_NUMERIC,ERROR,Negative demand requested value created.
+INJ-00353,demand.csv,8063,demand_requested,23,-23,NEGATIVE_NUMERIC,ERROR,Negative demand requested value created.
+INJ-00354,demand.csv,99,demand_requested,22,-22,NEGATIVE_NUMERIC,ERROR,Negative demand requested value created.
+INJ-00355,demand.csv,2843,demand_requested,42,-42,NEGATIVE_NUMERIC,ERROR,Negative demand requested value created.
+INJ-00356,demand.csv,9524,demand_requested,19,-19,NEGATIVE_NUMERIC,ERROR,Negative demand requested value created.
+INJ-00357,demand.csv,2665,demand_requested,24,-24,NEGATIVE_NUMERIC,ERROR,Negative demand requested value created.
+INJ-00358,demand.csv,6695,demand_requested,21,-21,NEGATIVE_NUMERIC,ERROR,Negative demand requested value created.
+INJ-00359,demand.csv,4895,demand_requested,36,-36,NEGATIVE_NUMERIC,ERROR,Negative demand requested value created.
+INJ-00360,demand.csv,825,demand_requested,21,-21,NEGATIVE_NUMERIC,ERROR,Negative demand requested value created.
+INJ-00361,demand.csv,8958,demand_requested,31,-31,NEGATIVE_NUMERIC,ERROR,Negative demand requested value created.
+INJ-00362,demand.csv,5443,demand_requested,54,-54,NEGATIVE_NUMERIC,ERROR,Negative demand requested value created.
+INJ-00363,demand.csv,2751,demand_requested,44,-44,NEGATIVE_NUMERIC,ERROR,Negative demand requested value created.
+INJ-00364,demand.csv,1606,demand_requested,21,-21,NEGATIVE_NUMERIC,ERROR,Negative demand requested value created.
+INJ-00365,demand.csv,3311,demand_requested,17,-17,NEGATIVE_NUMERIC,ERROR,Negative demand requested value created.
+INJ-00366,purchase_orders.csv,510,unit_cost,131.92,-131.92,NEGATIVE_NUMERIC,ERROR,Negative unit cost created on purchase order.
+INJ-00367,purchase_orders.csv,1895,unit_cost,140.2,-140.2,NEGATIVE_NUMERIC,ERROR,Negative unit cost created on purchase order.
+INJ-00368,purchase_orders.csv,403,unit_cost,131.92,-131.92,NEGATIVE_NUMERIC,ERROR,Negative unit cost created on purchase order.
+INJ-00369,purchase_orders.csv,1026,unit_cost,145.54,-145.54,NEGATIVE_NUMERIC,ERROR,Negative unit cost created on purchase order.
+INJ-00370,purchase_orders.csv,329,unit_cost,147.75,-147.75,NEGATIVE_NUMERIC,ERROR,Negative unit cost created on purchase order.
+INJ-00371,purchase_orders.csv,1238,unit_cost,62.54,-62.54,NEGATIVE_NUMERIC,ERROR,Negative unit cost created on purchase order.
+INJ-00372,purchase_orders.csv,361,unit_cost,147.75,-147.75,NEGATIVE_NUMERIC,ERROR,Negative unit cost created on purchase order.
+INJ-00373,purchase_orders.csv,1066,unit_cost,145.54,-145.54,NEGATIVE_NUMERIC,ERROR,Negative unit cost created on purchase order.
+INJ-00374,purchase_orders.csv,1805,unit_cost,140.2,-140.2,NEGATIVE_NUMERIC,ERROR,Negative unit cost created on purchase order.
+INJ-00375,purchase_orders.csv,630,unit_cost,156.73,-156.73,NEGATIVE_NUMERIC,ERROR,Negative unit cost created on purchase order.
+INJ-00376,purchase_orders.csv,1978,unit_cost,71.79,-71.79,NEGATIVE_NUMERIC,ERROR,Negative unit cost created on purchase order.
+INJ-00377,purchase_orders.csv,1869,unit_cost,140.2,-140.2,NEGATIVE_NUMERIC,ERROR,Negative unit cost created on purchase order.
+INJ-00378,purchase_orders.csv,579,unit_cost,131.92,-131.92,NEGATIVE_NUMERIC,ERROR,Negative unit cost created on purchase order.
+INJ-00379,purchase_orders.csv,1263,unit_cost,62.54,-62.54,NEGATIVE_NUMERIC,ERROR,Negative unit cost created on purchase order.
+INJ-00380,purchase_orders.csv,1912,unit_cost,140.2,-140.2,NEGATIVE_NUMERIC,ERROR,Negative unit cost created on purchase order.
+INJ-00381,inventory.csv,5597,ending_inventory,239,-85,IMPOSSIBLE_INVENTORY,ERROR,Ending inventory corrupted to physically impossible value: -85.
+INJ-00382,inventory.csv,126296,ending_inventory,180,-85,IMPOSSIBLE_INVENTORY,ERROR,Ending inventory corrupted to physically impossible value: -85.
+INJ-00383,inventory.csv,136385,ending_inventory,186,-85,IMPOSSIBLE_INVENTORY,ERROR,Ending inventory corrupted to physically impossible value: -85.
+INJ-00384,inventory.csv,34461,ending_inventory,307,-85,IMPOSSIBLE_INVENTORY,ERROR,Ending inventory corrupted to physically impossible value: -85.
+INJ-00385,inventory.csv,11866,ending_inventory,205,-85,IMPOSSIBLE_INVENTORY,ERROR,Ending inventory corrupted to physically impossible value: -85.
+INJ-00386,inventory.csv,55414,ending_inventory,113,-85,IMPOSSIBLE_INVENTORY,ERROR,Ending inventory corrupted to physically impossible value: -85.
+INJ-00387,inventory.csv,42270,ending_inventory,547,-85,IMPOSSIBLE_INVENTORY,ERROR,Ending inventory corrupted to physically impossible value: -85.
+INJ-00388,inventory.csv,49210,ending_inventory,331,-85,IMPOSSIBLE_INVENTORY,ERROR,Ending inventory corrupted to physically impossible value: -85.
+INJ-00389,inventory.csv,56213,ending_inventory,609,-85,IMPOSSIBLE_INVENTORY,ERROR,Ending inventory corrupted to physically impossible value: -85.
+INJ-00390,inventory.csv,930,ending_inventory,459,-85,IMPOSSIBLE_INVENTORY,ERROR,Ending inventory corrupted to physically impossible value: -85.
+INJ-00391,inventory.csv,7856,ending_inventory,27,-85,IMPOSSIBLE_INVENTORY,ERROR,Ending inventory corrupted to physically impossible value: -85.
+INJ-00392,inventory.csv,145796,ending_inventory,70,-85,IMPOSSIBLE_INVENTORY,ERROR,Ending inventory corrupted to physically impossible value: -85.
+INJ-00393,inventory.csv,130997,ending_inventory,14,-85,IMPOSSIBLE_INVENTORY,ERROR,Ending inventory corrupted to physically impossible value: -85.
+INJ-00394,inventory.csv,16570,ending_inventory,72,-85,IMPOSSIBLE_INVENTORY,ERROR,Ending inventory corrupted to physically impossible value: -85.
+INJ-00395,inventory.csv,82359,ending_inventory,0,-85,IMPOSSIBLE_INVENTORY,ERROR,Ending inventory corrupted to physically impossible value: -85.
+INJ-00396,inventory.csv,129211,ending_inventory,50,-85,IMPOSSIBLE_INVENTORY,ERROR,Ending inventory corrupted to physically impossible value: -85.
+INJ-00397,inventory.csv,153425,ending_inventory,0,-85,IMPOSSIBLE_INVENTORY,ERROR,Ending inventory corrupted to physically impossible value: -85.
+INJ-00398,inventory.csv,46039,ending_inventory,517,-85,IMPOSSIBLE_INVENTORY,ERROR,Ending inventory corrupted to physically impossible value: -85.
+INJ-00399,inventory.csv,26889,ending_inventory,1083,-85,IMPOSSIBLE_INVENTORY,ERROR,Ending inventory corrupted to physically impossible value: -85.
+INJ-00400,inventory.csv,64418,ending_inventory,4490,-85,IMPOSSIBLE_INVENTORY,ERROR,Ending inventory corrupted to physically impossible value: -85.
+INJ-00401,inventory.csv,31448,ending_inventory,658,1250000,IMPOSSIBLE_INVENTORY,ERROR,Ending inventory corrupted to physically impossible value: 1250000.
+INJ-00402,inventory.csv,130996,ending_inventory,25,1250000,IMPOSSIBLE_INVENTORY,ERROR,Ending inventory corrupted to physically impossible value: 1250000.
+INJ-00403,inventory.csv,166249,ending_inventory,303,1250000,IMPOSSIBLE_INVENTORY,ERROR,Ending inventory corrupted to physically impossible value: 1250000.
+INJ-00404,inventory.csv,170496,ending_inventory,2580,1250000,IMPOSSIBLE_INVENTORY,ERROR,Ending inventory corrupted to physically impossible value: 1250000.
+INJ-00405,inventory.csv,156462,ending_inventory,1376,1250000,IMPOSSIBLE_INVENTORY,ERROR,Ending inventory corrupted to physically impossible value: 1250000.
+INJ-00406,inventory.csv,66655,ending_inventory,944,1250000,IMPOSSIBLE_INVENTORY,ERROR,Ending inventory corrupted to physically impossible value: 1250000.
+INJ-00407,inventory.csv,65542,ending_inventory,4681,1250000,IMPOSSIBLE_INVENTORY,ERROR,Ending inventory corrupted to physically impossible value: 1250000.
+INJ-00408,inventory.csv,3878,ending_inventory,133,1250000,IMPOSSIBLE_INVENTORY,ERROR,Ending inventory corrupted to physically impossible value: 1250000.
+INJ-00409,inventory.csv,105149,ending_inventory,1053,1250000,IMPOSSIBLE_INVENTORY,ERROR,Ending inventory corrupted to physically impossible value: 1250000.
+INJ-00410,inventory.csv,87598,ending_inventory,141,1250000,IMPOSSIBLE_INVENTORY,ERROR,Ending inventory corrupted to physically impossible value: 1250000.
+INJ-00411,inventory.csv,175090,ending_inventory,505,1250000,IMPOSSIBLE_INVENTORY,ERROR,Ending inventory corrupted to physically impossible value: 1250000.
+INJ-00412,inventory.csv,135414,ending_inventory,0,1250000,IMPOSSIBLE_INVENTORY,ERROR,Ending inventory corrupted to physically impossible value: 1250000.
+INJ-00413,inventory.csv,155465,ending_inventory,157,1250000,IMPOSSIBLE_INVENTORY,ERROR,Ending inventory corrupted to physically impossible value: 1250000.
+INJ-00414,inventory.csv,71955,ending_inventory,1602,1250000,IMPOSSIBLE_INVENTORY,ERROR,Ending inventory corrupted to physically impossible value: 1250000.
+INJ-00415,inventory.csv,116060,ending_inventory,772,1250000,IMPOSSIBLE_INVENTORY,ERROR,Ending inventory corrupted to physically impossible value: 1250000.
+INJ-00416,inventory.csv,91008,ending_inventory,1834,1250000,IMPOSSIBLE_INVENTORY,ERROR,Ending inventory corrupted to physically impossible value: 1250000.
+INJ-00417,inventory.csv,54441,ending_inventory,250,1250000,IMPOSSIBLE_INVENTORY,ERROR,Ending inventory corrupted to physically impossible value: 1250000.
+INJ-00418,inventory.csv,58863,ending_inventory,2705,1250000,IMPOSSIBLE_INVENTORY,ERROR,Ending inventory corrupted to physically impossible value: 1250000.
+INJ-00419,inventory.csv,164332,ending_inventory,0,1250000,IMPOSSIBLE_INVENTORY,ERROR,Ending inventory corrupted to physically impossible value: 1250000.
+INJ-00420,inventory.csv,21534,ending_inventory,0,1250000,IMPOSSIBLE_INVENTORY,ERROR,Ending inventory corrupted to physically impossible value: 1250000.
+INJ-00421,demand.csv,27877,product_id,SKU-007,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00422,demand.csv,61247,product_id,SKU-014,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00423,demand.csv,254362,product_id,SKU-058,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00424,demand.csv,166986,product_id,SKU-039,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00425,demand.csv,201444,product_id,SKU-046,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00426,demand.csv,243444,product_id,SKU-056,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00427,demand.csv,133819,product_id,SKU-031,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00428,demand.csv,209778,product_id,SKU-048,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00429,demand.csv,146151,product_id,SKU-034,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00430,demand.csv,197127,product_id,SKU-045,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00431,demand.csv,43692,product_id,SKU-010,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00432,demand.csv,206598,product_id,SKU-048,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00433,demand.csv,218362,product_id,SKU-050,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00434,demand.csv,156910,product_id,SKU-036,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00435,demand.csv,166890,product_id,SKU-039,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00436,demand.csv,211754,product_id,SKU-049,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00437,demand.csv,82586,product_id,SKU-019,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00438,demand.csv,190412,product_id,SKU-044,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00439,demand.csv,139737,product_id,SKU-032,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00440,demand.csv,252782,product_id,SKU-058,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00441,demand.csv,65952,product_id,SKU-016,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00442,demand.csv,137151,product_id,SKU-032,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00443,demand.csv,123042,product_id,SKU-029,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00444,demand.csv,174692,product_id,SKU-040,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00445,demand.csv,158786,product_id,SKU-037,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00446,demand.csv,39014,product_id,SKU-009,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00447,demand.csv,174487,product_id,SKU-040,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00448,demand.csv,222978,product_id,SKU-051,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00449,demand.csv,251552,product_id,SKU-058,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00450,demand.csv,159549,product_id,SKU-037,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00451,demand.csv,245623,product_id,SKU-057,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00452,demand.csv,194369,product_id,SKU-045,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00453,demand.csv,47772,product_id,SKU-011,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00454,demand.csv,4695,product_id,SKU-002,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00455,demand.csv,131399,product_id,SKU-030,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00456,demand.csv,75802,product_id,SKU-018,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00457,demand.csv,6544,product_id,SKU-002,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00458,demand.csv,198342,product_id,SKU-046,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00459,demand.csv,245696,product_id,SKU-057,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00460,demand.csv,157138,product_id,SKU-036,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00461,demand.csv,28733,product_id,SKU-007,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00462,demand.csv,121896,product_id,SKU-028,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00463,demand.csv,113748,product_id,SKU-026,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00464,demand.csv,228456,product_id,SKU-053,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00465,demand.csv,110331,product_id,SKU-026,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00466,demand.csv,87997,product_id,SKU-021,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00467,demand.csv,36944,product_id,SKU-009,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00468,demand.csv,75402,product_id,SKU-018,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00469,demand.csv,1714,product_id,SKU-001,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00470,demand.csv,221334,product_id,SKU-051,SKU-999,REFERENTIAL_VIOLATION,ERROR,Product ID set to non-existent 'SKU-999' not present in dim_product.
+INJ-00471,purchase_orders.csv,4913,supplier_id,SUP-02,SUP-99,REFERENTIAL_VIOLATION,ERROR,Supplier ID set to non-existent 'SUP-99' not present in dim_supplier.
+INJ-00472,purchase_orders.csv,6078,supplier_id,SUP-07,SUP-99,REFERENTIAL_VIOLATION,ERROR,Supplier ID set to non-existent 'SUP-99' not present in dim_supplier.
+INJ-00473,purchase_orders.csv,9346,supplier_id,SUP-08,SUP-99,REFERENTIAL_VIOLATION,ERROR,Supplier ID set to non-existent 'SUP-99' not present in dim_supplier.
+INJ-00474,purchase_orders.csv,4638,supplier_id,SUP-02,SUP-99,REFERENTIAL_VIOLATION,ERROR,Supplier ID set to non-existent 'SUP-99' not present in dim_supplier.
+INJ-00475,purchase_orders.csv,5056,supplier_id,SUP-02,SUP-99,REFERENTIAL_VIOLATION,ERROR,Supplier ID set to non-existent 'SUP-99' not present in dim_supplier.
+INJ-00476,purchase_orders.csv,10488,supplier_id,SUP-04,SUP-99,REFERENTIAL_VIOLATION,ERROR,Supplier ID set to non-existent 'SUP-99' not present in dim_supplier.
+INJ-00477,purchase_orders.csv,6963,supplier_id,SUP-06,SUP-99,REFERENTIAL_VIOLATION,ERROR,Supplier ID set to non-existent 'SUP-99' not present in dim_supplier.
+INJ-00478,purchase_orders.csv,8020,supplier_id,SUP-01,SUP-99,REFERENTIAL_VIOLATION,ERROR,Supplier ID set to non-existent 'SUP-99' not present in dim_supplier.
+INJ-00479,purchase_orders.csv,7582,supplier_id,SUP-06,SUP-99,REFERENTIAL_VIOLATION,ERROR,Supplier ID set to non-existent 'SUP-99' not present in dim_supplier.
+INJ-00480,purchase_orders.csv,9760,supplier_id,SUP-08,SUP-99,REFERENTIAL_VIOLATION,ERROR,Supplier ID set to non-existent 'SUP-99' not present in dim_supplier.
+INJ-00481,purchase_orders.csv,2140,supplier_id,SUP-08,SUP-99,REFERENTIAL_VIOLATION,ERROR,Supplier ID set to non-existent 'SUP-99' not present in dim_supplier.
+INJ-00482,purchase_orders.csv,10316,supplier_id,SUP-02,SUP-99,REFERENTIAL_VIOLATION,ERROR,Supplier ID set to non-existent 'SUP-99' not present in dim_supplier.
+INJ-00483,purchase_orders.csv,11199,supplier_id,SUP-04,SUP-99,REFERENTIAL_VIOLATION,ERROR,Supplier ID set to non-existent 'SUP-99' not present in dim_supplier.
+INJ-00484,purchase_orders.csv,6327,supplier_id,SUP-06,SUP-99,REFERENTIAL_VIOLATION,ERROR,Supplier ID set to non-existent 'SUP-99' not present in dim_supplier.
+INJ-00485,purchase_orders.csv,5947,supplier_id,SUP-07,SUP-99,REFERENTIAL_VIOLATION,ERROR,Supplier ID set to non-existent 'SUP-99' not present in dim_supplier.
+INJ-00486,purchase_orders.csv,5815,supplier_id,SUP-02,SUP-99,REFERENTIAL_VIOLATION,ERROR,Supplier ID set to non-existent 'SUP-99' not present in dim_supplier.
+INJ-00487,purchase_orders.csv,11603,supplier_id,SUP-04,SUP-99,REFERENTIAL_VIOLATION,ERROR,Supplier ID set to non-existent 'SUP-99' not present in dim_supplier.
+INJ-00488,purchase_orders.csv,10036,supplier_id,SUP-02,SUP-99,REFERENTIAL_VIOLATION,ERROR,Supplier ID set to non-existent 'SUP-99' not present in dim_supplier.
+INJ-00489,purchase_orders.csv,9462,supplier_id,SUP-08,SUP-99,REFERENTIAL_VIOLATION,ERROR,Supplier ID set to non-existent 'SUP-99' not present in dim_supplier.
+INJ-00490,purchase_orders.csv,3332,supplier_id,SUP-03,SUP-99,REFERENTIAL_VIOLATION,ERROR,Supplier ID set to non-existent 'SUP-99' not present in dim_supplier.
+INJ-00491,purchase_orders.csv,6741,supplier_id,SUP-06,SUP-99,REFERENTIAL_VIOLATION,ERROR,Supplier ID set to non-existent 'SUP-99' not present in dim_supplier.
+INJ-00492,purchase_orders.csv,512,supplier_id,SUP-01,SUP-99,REFERENTIAL_VIOLATION,ERROR,Supplier ID set to non-existent 'SUP-99' not present in dim_supplier.
+INJ-00493,purchase_orders.csv,2690,supplier_id,SUP-08,SUP-99,REFERENTIAL_VIOLATION,ERROR,Supplier ID set to non-existent 'SUP-99' not present in dim_supplier.
+INJ-00494,purchase_orders.csv,628,supplier_id,SUP-05,SUP-99,REFERENTIAL_VIOLATION,ERROR,Supplier ID set to non-existent 'SUP-99' not present in dim_supplier.
+INJ-00495,purchase_orders.csv,2793,supplier_id,SUP-08,SUP-99,REFERENTIAL_VIOLATION,ERROR,Supplier ID set to non-existent 'SUP-99' not present in dim_supplier.
+INJ-00496,purchase_orders.csv,8676,supplier_id,SUP-01,SUP-99,REFERENTIAL_VIOLATION,ERROR,Supplier ID set to non-existent 'SUP-99' not present in dim_supplier.
+INJ-00497,purchase_orders.csv,2942,supplier_id,SUP-08,SUP-99,REFERENTIAL_VIOLATION,ERROR,Supplier ID set to non-existent 'SUP-99' not present in dim_supplier.
+INJ-00498,purchase_orders.csv,3747,supplier_id,SUP-08,SUP-99,REFERENTIAL_VIOLATION,ERROR,Supplier ID set to non-existent 'SUP-99' not present in dim_supplier.
+INJ-00499,purchase_orders.csv,2056,supplier_id,SUP-08,SUP-99,REFERENTIAL_VIOLATION,ERROR,Supplier ID set to non-existent 'SUP-99' not present in dim_supplier.
+INJ-00500,purchase_orders.csv,9786,supplier_id,SUP-08,SUP-99,REFERENTIAL_VIOLATION,ERROR,Supplier ID set to non-existent 'SUP-99' not present in dim_supplier.
+INJ-00501,demand.csv,SKU-005_WH-01_2024-05-01_to_14,date,28 dates present,DELETED_RECORDS,TEMPORAL_GAP,WARNING,Dropped 28 consecutive daily observations creating a 14-day temporal gap for SKU-005 at WH-01.
+INJ-00502,demand.csv,4832,demand_requested,41,3200,STATISTICAL_OUTLIER,WARNING,Extreme demand spike injected (3200 units vs baseline 41).
+INJ-00503,demand.csv,4124,demand_requested,27,3200,STATISTICAL_OUTLIER,WARNING,Extreme demand spike injected (3200 units vs baseline 27).
+INJ-00504,demand.csv,4167,demand_requested,23,3200,STATISTICAL_OUTLIER,WARNING,Extreme demand spike injected (3200 units vs baseline 23).
+INJ-00505,demand.csv,3688,demand_requested,35,3200,STATISTICAL_OUTLIER,WARNING,Extreme demand spike injected (3200 units vs baseline 35).
+INJ-00506,demand.csv,2313,demand_requested,23,3200,STATISTICAL_OUTLIER,WARNING,Extreme demand spike injected (3200 units vs baseline 23).
+INJ-00507,demand.csv,671,demand_requested,53,3200,STATISTICAL_OUTLIER,WARNING,Extreme demand spike injected (3200 units vs baseline 53).
+INJ-00508,demand.csv,1613,demand_requested,20,3200,STATISTICAL_OUTLIER,WARNING,Extreme demand spike injected (3200 units vs baseline 20).
+INJ-00509,demand.csv,2569,demand_requested,27,3200,STATISTICAL_OUTLIER,WARNING,Extreme demand spike injected (3200 units vs baseline 27).
+INJ-00510,demand.csv,2677,demand_requested,25,3200,STATISTICAL_OUTLIER,WARNING,Extreme demand spike injected (3200 units vs baseline 25).
+INJ-00511,demand.csv,4286,demand_requested,28,3200,STATISTICAL_OUTLIER,WARNING,Extreme demand spike injected (3200 units vs baseline 28).

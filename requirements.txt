@@ -1,0 +1,22 @@
+# ==============================================================================
+# PPOI: Predictive → Prescriptive Operations Intelligence Platform
+# Dependencies
+# ==============================================================================
+
+# Core Data Analytics & Numerical Computing
+pandas>=2.2.0
+numpy>=1.26.0
+scipy>=1.12.0
+pyyaml>=6.0.1
+sqlalchemy>=2.0.0
+
+# Machine Learning & Forecasting
+scikit-learn>=1.5.0
+xgboost>=3.0.0
+
+# Interactive Dashboard & Visualizations
+plotly>=5.18.0
+streamlit>=1.39.0
+
+# Quality Assurance & Testing
+pytest>=8.0.0

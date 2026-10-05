@@ -1,0 +1,44 @@
+{
+  "demand_features": {
+    "rows": 175440,
+    "columns": 55,
+    "parquet_file": "data\\processed\\features\\demand_features.parquet",
+    "csv_file": "data\\processed\\features\\demand_features.csv"
+  },
+  "inventory_risk_features": {
+    "rows": 175440,
+    "columns": 53,
+    "parquet_file": "data\\processed\\features\\inventory_risk_features.parquet",
+    "csv_file": "data\\processed\\features\\inventory_risk_features.csv"
+  },
+  "supplier_risk_features": {
+    "rows": 11665,
+    "columns": 58,
+    "parquet_file": "data\\processed\\features\\supplier_risk_features.parquet",
+    "csv_file": "data\\processed\\features\\supplier_risk_features.csv"
+  },
+  "leakage_validation": {
+    "demand": {
+      "domain": "demand",
+      "is_leakage_free": true,
+      "cutoff_date": "2025-06-30",
+      "max_abs_diff": 0.0,
+      "violating_columns": []
+    },
+    "inventory": {
+      "domain": "inventory",
+      "is_leakage_free": true,
+      "cutoff_date": "2025-06-30",
+      "max_abs_diff": 0.0,
+      "violating_columns": []
+    },
+    "supplier": {
+      "domain": "supplier",
+      "is_leakage_free": true,
+      "cutoff_date": "2025-06-30",
+      "max_abs_diff": 0.0,
+      "violating_columns": []
+    },
+    "all_leakage_free": true
+  }
+}

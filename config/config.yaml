@@ -1,0 +1,123 @@
+# ==============================================================================
+# PREDICTIVE → PRESCRIPTIVE OPERATIONS INTELLIGENCE PLATFORM (PPOI)
+# Configuration Specification
+# ==============================================================================
+
+project:
+  name: "predictive-prescriptive-operations-intelligence"
+  short_name: "PPOI"
+  version: "1.0.0"
+  random_seed: 42
+  synthetic_disclosure: "All operational data in this project is synthetic and generated for analytical demonstration."
+
+paths:
+  raw_data_dir: "data/raw"
+  processed_data_dir: "data/processed"
+  demo_data_dir: "data/demo"
+  database_file: "database/operations.db"
+  models_dir: "models"
+  reports_dir: "reports"
+  config_file: "config/config.yaml"
+
+data_generation:
+  start_date: "2024-01-01"
+  end_date: "2025-12-31" # 731 days (24 months)
+  num_products: 60
+  num_categories: 6
+  num_suppliers: 8
+  num_warehouses: 4
+  num_regions: 6
+  base_daily_demand_min: 5
+  base_daily_demand_max: 60
+  promo_frequency_pct: 0.08
+  promo_lift_range: [1.2, 1.6]
+  shock_frequency_pct: 0.02
+  shock_multiplier_range: [1.8, 3.0]
+  holding_cost_rate_annual: 0.20 # 20% annual inventory holding cost
+  stockout_penalty_multiplier: 1.5 # 1.5x product unit price
+  transport_cost_per_unit_base: 2.50
+
+categories:
+  - "Electronics"
+  - "Industrial Supplies"
+  - "Packaging"
+  - "Consumables"
+  - "Spare Parts"
+  - "Raw Materials"
+
+regions:
+  - "North Market"
+  - "South Market"
+  - "East Market"
+  - "West Market"
+  - "Central Market"
+  - "Export Hub"
+
+warehouses:
+  - id: "WH-01"
+    name: "Central Logistics Hub"
+    region: "Central Market"
+    capacity_units: 120000
+  - id: "WH-02"
+    name: "Northern Distribution Center"
+    region: "North Market"
+    capacity_units: 80000
+  - id: "WH-03"
+    name: "Coastal Port Terminal"
+    region: "Export Hub"
+    capacity_units: 95000
+  - id: "WH-04"
+    name: "Southern Fulfillment Hub"
+    region: "South Market"
+    capacity_units: 75000
+
+data_quality:
+  strict_validation: true
+  max_allowed_missing_pct: 0.0
+  max_allowed_duplicate_pct: 0.0
+  allow_negative_demand: false
+  allow_negative_inventory: false
+  allow_negative_price: false
+
+feature_engineering:
+  demand_lags: [1, 7, 14, 28]
+  rolling_windows: [7, 14, 28]
+  inventory_coverage_windows: [7, 14, 30]
+  supplier_lookback_days: 60
+
+forecasting:
+  hierarchy:
+    - "seasonal_naive"
+    - "moving_average"
+    - "ridge"
+    - "xgboost"
+  forecast_horizon_days: 14
+  train_split_ratio: 0.70
+  validation_split_ratio: 0.15
+  test_split_ratio: 0.15
+  target_column: "demand_units"
+  empirical_prediction_intervals: [0.90, 0.95]
+
+risk_models:
+  stockout_horizon_days: 7
+  stockout_risk_bands:
+    low: [0.0, 0.25]
+    medium: [0.25, 0.65]
+    high: [0.65, 1.0]
+  supplier_delay_threshold_days: 2 # Delay considered significant if arrival > estimated + 2 days
+
+optimization:
+  solver: "highs" # SciPy HiGHS linear/mixed-integer solver
+  default_service_level_target: 0.95
+  max_supplier_allocation_pct: 0.60
+  holding_cost_daily_pct: 0.00055 # ~20% annual / 365
+  safety_stock_z_score: 1.645 # 95% service level standard normal z
+
+simulation:
+  demand_growth_bounds: [-0.20, 0.30]
+  lead_time_change_bounds: [-0.20, 0.50]
+  safety_stock_multiplier_bounds: [0.5, 2.0]
+
+demo_mode:
+  enabled: true
+  cached_artifacts: true
