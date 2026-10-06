@@ -73,7 +73,10 @@ def run_deployment_simulation():
         print(f"  Lateral Transshipments     : {opt_res.total_transferred:,.0f} units")
         print(f"  Executive Narrative Length : {len(narrative)} chars")
         assert opt_res.status.upper() == "OPTIMAL", f"Optimizer failed with status: {opt_res.status}"
-        assert opt_res.total_cost > 0, "Optimal cost must be positive"
+        assert abs(opt_res.total_cost - 136859.92) < 0.1, f"Expected 136,859.92, got {opt_res.total_cost}"
+        assert abs(base_res.total_cost - 1220182.26) < 0.1, f"Expected 1,220,182.26, got {base_res.total_cost}"
+        assert abs(opt_res.service_level - 1.00) < 0.001, f"Expected 100% fill rate, got {opt_res.service_level}"
+        assert abs(opt_res.total_transferred - 5978) < 1.0, f"Expected 5,978 transfers, got {opt_res.total_transferred}"
 
         # Step 4: Test Risk Page Data Loading
         print("\nTesting Risk Intelligence Page Data Loading...")

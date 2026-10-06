@@ -141,13 +141,52 @@ Executed via `scripts/simulate_deployment_environment.py`:
 
 ---
 
-## 5. Deployment Readiness Checklist
+## 5. Live Streamlit Cloud Deployment Guide & Operational Procedure
 
-- [x] **Python 3.12 Runtime Pinned:** `.python-version` (3.12.10) and `runtime.txt` (python-3.12.10) created.
-- [x] **Parquet Engine Available:** `pyarrow>=17.0.0` added to `requirements.txt`.
-- [x] **Database File Size Compliant:** `database/demo_operations.db` is 19.61 MB (strictly < 100 MB GitHub limit, strictly < 25 MB target).
-- [x] **Referential Integrity Maintained:** `PRAGMA foreign_key_check` yields 0 violations.
-- [x] **Zero Hardcoded Database Paths:** All modules connect via `src/database/connection.py`.
-- [x] **Full UI Transparency:** Dashboard sidebar explicitly informs users of Active DB profile (Demo vs. Full).
-- [x] **All Tests Passing:** 129 / 129 unit & integration tests passing.
-- [x] **Phase 1–9 Integrity Unmodified:** Optimization mathematics, forecasting models, and risk calibrations remain 100% unaltered.
+> [!IMPORTANT]
+> **Authoritative Streamlit Community Cloud Platform Constraint:**
+> On Streamlit Community Cloud, the Python container runtime is determined exclusively at app creation time via **Advanced Settings**.
+> An already deployed container running Python 3.14 will **NOT** switch its container image to Python 3.12 via repository commits (`.python-version` / `runtime.txt`) or via the "Reboot App" button.
+> To change the Python runtime from Python 3.14 to Python 3.12, the application must be **deleted** in the Streamlit Cloud dashboard and **redeployed** with Python 3.12 selected in Advanced Settings.
+
+### Step-by-Step UI Redeployment Protocol:
+1. Navigate to [share.streamlit.io](https://share.streamlit.io/) and sign in.
+2. Locate the existing deployed application:
+   * **App Name:** `predictive-prescriptive-operations-intelligence`
+   * **URL:** `https://predictive-prescriptive-operations-intelligence-sauhkivrlszbwj.streamlit.app/`
+3. Click the **three dots menu (⋮)** next to the app and select **Delete app**. Confirm the deletion.
+4. Click **Create app** (or **New app**).
+5. Configure deployment settings:
+   * **Repository:** `Arpan060504/predictive-prescriptive-operations-intelligence`
+   * **Branch:** `main`
+   * **Main file path:** `dashboard/app.py`
+   * **App URL (optional):** Enter custom subdomain if desired.
+6. Click **Advanced settings**:
+   * **Python version:** Select **`3.12`** from the dropdown (critical step!).
+   * **Secrets:** Verify or paste any required secrets (none required for SQLite demo mode).
+7. Click **Deploy!**.
+8. Monitor the live build logs. Confirm the build output references Python 3.12:
+   ```text
+   [manager] Python version 3.12.x selected
+   [manager] Installing dependencies from requirements.txt...
+   ```
+9. Verify on the deployed app:
+   * Navigate to the **System Architecture & Audit** page.
+   * Confirm the live diagnostic displays:
+     * **Python Runtime:** `v3.12.x` (Green badge: `Certified 3.12`)
+     * **Database Mode:** `DEPLOYMENT DEMO DATABASE`
+   * Navigate to the **Inventory & Supplier Risk** page and confirm zero `ImportError`/`ModuleNotFoundError`.
+   * Navigate to the **Prescriptive Operations Optimization** page and confirm all scenarios solve to `OPTIMAL`.
+
+---
+
+## 6. Final Deployment Readiness & Compliance Checklist
+
+- [x] **Source Code Integrity:** 100% compliant with Python 3.12; zero monkey-patching or caught-and-hidden exceptions.
+- [x] **Authoritative Dependency File:** `requirements.txt` is the sole dependency manifest; explicitly includes `pyarrow>=17.0.0` and `joblib>=1.4.0`.
+- [x] **Database Architecture Preserved:** `database/demo_operations.db` is 19.61 MB (strictly < 25 MB and < 100 MB).
+- [x] **Referential Integrity Maintained:** `PRAGMA foreign_key_check` yields 0 violations across all 25 tables.
+- [x] **Live Environment Diagnostics Active:** System Architecture & Audit page displays live `platform.python_version()`, `pd.__version__`, `st.__version__`, and Database Mode.
+- [x] **All Tests Passing Locally:** 129 / 129 unit & integration tests passing under Python 3.12.10.
+- [x] **Phase 1–9 Integrity Unmodified:** Optimization mathematics ($136,859.92 optimal, $1,220,182.26 baseline, 100% fill rate, 5,978 transfer units), forecasting models, and risk calibrations remain 100% unaltered.
+

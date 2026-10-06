@@ -132,9 +132,30 @@ def main():
     elif page == "System Architecture & Audit":
         st.title("🏛️ System Architecture & Audit Manifest")
         st.success("121/121 Prior Certified Tests Passing. Phase 9 Prescriptive Operations Intelligence certified.")
+
+        import platform
+        import pandas as pd
+
+        # Environment & Deployment Diagnostics
+        st.subheader("Cloud Environment & Deployment Diagnostics")
+        col_env1, col_env2, col_env3, col_env4 = st.columns(4)
+        with col_env1:
+            py_ver = platform.python_version()
+            st.metric(
+                "Python Runtime",
+                f"v{py_ver}",
+                delta="Certified 3.12" if py_ver.startswith("3.12") else "Unexpected Runtime",
+                delta_color="normal" if py_ver.startswith("3.12") else "inverse",
+            )
+        with col_env2:
+            st.metric("Pandas Version", f"v{pd.__version__}")
+        with col_env3:
+            st.metric("Streamlit Version", f"v{st.__version__}")
+        with col_env4:
+            st.metric("Database Mode", db_info["mode_label"])
+
         try:
-            db_info = get_database_info()
-            st.subheader("Database Deployment & Telemetry Status")
+            st.subheader("Database Relational Telemetry")
             col_db1, col_db2, col_db3, col_db4 = st.columns(4)
             with col_db1:
                 st.metric("Database Mode", db_info["mode_label"])

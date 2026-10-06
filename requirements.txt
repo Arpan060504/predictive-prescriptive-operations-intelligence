@@ -14,6 +14,7 @@ sqlalchemy>=2.0.0
 # Machine Learning & Forecasting
 scikit-learn>=1.5.0
 xgboost>=3.0.0
+joblib>=1.4.0
 
 # Interactive Dashboard & Visualizations
 plotly>=5.18.0
