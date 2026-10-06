@@ -46,7 +46,8 @@ def run_prescriptive_optimization() -> Dict[str, Any]:
     config = load_config()
 
     # Paths
-    db_path = get_resolved_path("database/operations.db")
+    from src.database.connection import get_database_path, get_connection
+    db_path = get_database_path()
     op_path = get_resolved_path("data/processed/risk/operational_risk_priorities.parquet")
     output_dir = get_resolved_path("data/processed/optimization")
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -55,7 +56,7 @@ def run_prescriptive_optimization() -> Dict[str, Any]:
         raise FileNotFoundError(f"Missing certified operational risk data at {op_path}")
 
     # Load Database Master Tables
-    conn = sqlite3.connect(db_path)
+    conn = get_connection(db_path)
     p_dims = pd.read_sql("SELECT * FROM dim_product", conn)
     s_dims = pd.read_sql("SELECT * FROM dim_supplier", conn)
     w_dims = pd.read_sql("SELECT * FROM dim_warehouse", conn)

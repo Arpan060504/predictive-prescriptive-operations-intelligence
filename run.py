@@ -180,10 +180,10 @@ def main():
             from src.optimization.optimizer import NetworkOptimizer
             from src.optimization.baseline import BaselinePolicyEngine
             from src.decision_engine.policy_comparison import compare_policies
+            from src.database.connection import get_connection
             from src.utils.config import get_resolved_path
 
-            db_path = get_resolved_path("database/operations.db")
-            conn = sqlite3.connect(db_path)
+            conn = get_connection(readonly=True)
             p_dims = pd.read_sql("SELECT * FROM dim_product", conn)
             s_dims = pd.read_sql("SELECT * FROM dim_supplier", conn)
             w_dims = pd.read_sql("SELECT * FROM dim_warehouse", conn)
@@ -223,10 +223,10 @@ def main():
             import sqlite3
             import pandas as pd
             from src.decision_engine.sensitivity import SensitivityAnalyzer
+            from src.database.connection import get_connection
             from src.utils.config import get_resolved_path
 
-            db_path = get_resolved_path("database/operations.db")
-            conn = sqlite3.connect(db_path)
+            conn = get_connection(readonly=True)
             p_dims = pd.read_sql("SELECT * FROM dim_product", conn)
             s_dims = pd.read_sql("SELECT * FROM dim_supplier", conn)
             w_dims = pd.read_sql("SELECT * FROM dim_warehouse", conn)

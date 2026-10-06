@@ -133,8 +133,8 @@ def run_scenario_generation() -> pd.DataFrame:
     from src.utils.config import get_resolved_path
 
     logger.info("Starting scenario simulation run from CLI...")
-    db_path = get_resolved_path("database/operations.db")
-    conn = sqlite3.connect(db_path)
+    from src.database.connection import get_connection
+    conn = get_connection(readonly=True)
     p_dims = pd.read_sql("SELECT * FROM dim_product", conn)
     s_dims = pd.read_sql("SELECT * FROM dim_supplier", conn)
     w_dims = pd.read_sql("SELECT * FROM dim_warehouse", conn)

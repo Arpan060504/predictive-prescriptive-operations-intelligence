@@ -14,6 +14,7 @@ if str(PROJECT_ROOT) not in sys.path:
 
 from dashboard.pages.risk_page import render_risk_page
 from dashboard.pages.prescriptive_page import render_prescriptive_page
+from src.database.connection import get_database_info, is_demo_database
 
 st.set_page_config(
     page_title="PPOI — Operations Intelligence Platform",
@@ -100,6 +101,27 @@ def main():
     st.sidebar.markdown("**Engines Active:** Phase 7, 8 & 9 (Prescriptive)")
     st.sidebar.caption("All operational data synthetic for analytical benchmarking.")
 
+    # Database Mode Telemetry Indicator
+    try:
+        db_info = get_database_info()
+        st.sidebar.markdown("---")
+        if db_info["is_demo"]:
+            st.sidebar.warning("⚡ **Mode:** DEPLOYMENT DEMO DB")
+            st.sidebar.caption(
+                f"**Active DB:** `{db_info['filename']}` ({db_info['size_mb']} MB)\n\n"
+                "Lightweight deployment profile for Streamlit Community Cloud. "
+                "Preserves full schema definitions, 100% of dimension tables, "
+                "all Phase 9 prescriptive optimization models, and recent analytical exposure telemetry."
+            )
+        else:
+            st.sidebar.success("🏛️ **Mode:** FULL OPERATIONAL DB")
+            st.sidebar.caption(
+                f"**Active DB:** `{db_info['filename']}` ({db_info['size_mb']} MB)\n\n"
+                "Complete 24-month operational star schema."
+            )
+    except Exception as e:
+        st.sidebar.error(f"Database connection offline: {e}")
+
     if page == "Inventory & Supplier Risk":
         render_risk_page()
     elif page == "Prescriptive Optimization":
@@ -110,6 +132,20 @@ def main():
     elif page == "System Architecture & Audit":
         st.title("🏛️ System Architecture & Audit Manifest")
         st.success("121/121 Prior Certified Tests Passing. Phase 9 Prescriptive Operations Intelligence certified.")
+        try:
+            db_info = get_database_info()
+            st.subheader("Database Deployment & Telemetry Status")
+            col_db1, col_db2, col_db3, col_db4 = st.columns(4)
+            with col_db1:
+                st.metric("Database Mode", db_info["mode_label"])
+            with col_db2:
+                st.metric("Database File", db_info["filename"])
+            with col_db3:
+                st.metric("Database Size", f"{db_info['size_mb']} MB")
+            with col_db4:
+                st.metric("Relational Tables", f"{db_info['tables_count']}")
+        except Exception:
+            pass
 
 
 if __name__ == "__main__":

@@ -18,13 +18,8 @@ logger = get_logger("DatabaseQueries")
 
 def get_db_connection(db_path: Optional[Path] = None) -> sqlite3.Connection:
     """Returns an optimized SQLite connection with foreign keys enabled."""
-    if db_path is None:
-        root = get_project_root()
-        config = load_config()
-        db_path = root / config["paths"]["database_file"]
-    conn = sqlite3.connect(db_path)
-    conn.execute("PRAGMA foreign_keys = ON;")
-    return conn
+    from src.database.connection import get_connection
+    return get_connection(db_path=db_path)
 
 
 def query_inventory_turnover(conn: Optional[sqlite3.Connection] = None) -> pd.DataFrame:

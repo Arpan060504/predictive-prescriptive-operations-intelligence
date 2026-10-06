@@ -24,6 +24,7 @@ from src.optimization.baseline import BaselinePolicyEngine, BaselineResult
 from src.simulation.scenarios import get_standard_scenarios, apply_scenario, ScenarioDefinition
 from src.decision_engine.policy_comparison import compare_policies
 from src.decision_engine.explanations import DecisionExplanationEngine
+from src.database.connection import get_connection
 from src.utils.config import get_resolved_path
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
@@ -32,8 +33,7 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 @st.cache_data(ttl=600)
 def load_prescriptive_base_data():
     """Loads certified operational data and dimension tables."""
-    db_path = get_resolved_path("database/operations.db")
-    conn = sqlite3.connect(db_path)
+    conn = get_connection(readonly=True)
     p_dims = pd.read_sql("SELECT * FROM dim_product", conn)
     s_dims = pd.read_sql("SELECT * FROM dim_supplier", conn)
     w_dims = pd.read_sql("SELECT * FROM dim_warehouse", conn)

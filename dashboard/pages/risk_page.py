@@ -10,6 +10,8 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
+from src.database.connection import get_connection
+
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 
 
@@ -23,14 +25,14 @@ def load_risk_data():
     if exp_path.exists():
         df_exp = pd.read_parquet(exp_path)
     else:
-        conn = sqlite3.connect(PROJECT_ROOT / "database" / "operations.db")
+        conn = get_connection(readonly=True)
         df_exp = pd.read_sql_query("SELECT * FROM analytics_operational_exposure", conn)
         conn.close()
         
     if sup_path.exists():
         df_sup = pd.read_parquet(sup_path)
     else:
-        conn = sqlite3.connect(PROJECT_ROOT / "database" / "operations.db")
+        conn = get_connection(readonly=True)
         df_sup = pd.read_sql_query("SELECT * FROM analytics_supplier_risk", conn)
         conn.close()
         

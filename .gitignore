@@ -29,3 +29,4 @@ data/raw/*.tmp
 database/*.db
 database/*.db-shm
 database/*.db-wal
+!database/demo_operations.db
